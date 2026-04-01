@@ -1,0 +1,17 @@
+#Requirements for the project.
+#to run: pip install -r requirements.txt
+
+
+
+pypdf>=4.2.0
+# Used for parsing PDF files in the T1_Extractor.
+
+PyYAML>=6.0.1
+# Used for parsing YAML config files in the T1_Extractor.
+
+transformers>=4.48.0
+# Used for pre-trained language models in the T1_Extractor.
+
+torch>=2.2.0
+# Used for deep learning models in the T1_Extractor.
+
