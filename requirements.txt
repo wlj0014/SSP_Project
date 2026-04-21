@@ -15,3 +15,6 @@ transformers>=4.48.0
 torch>=2.2.0
 # Used for deep learning models in the T1_Extractor.
 
+pandas>=2.0.0
+# Used to shape Kubescape JSON scan results into a DataFrame in T3_Executor.
+

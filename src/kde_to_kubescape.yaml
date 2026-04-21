@@ -1,0 +1,83 @@
+# KDE name -> Kubescape control IDs
+# keys are lowercased; lookup normalizes with .strip().lower()
+# values are lists of control IDs from https://github.com/kubescape/regolibrary/tree/master/controls
+
+# authentication / credentials / secrets
+account id: [C-0012, C-0015, C-0261]
+credential: [C-0012, C-0015]
+credentials: [C-0012, C-0015]
+secret: [C-0015, C-0261]
+secrets: [C-0015, C-0261]
+service account token: [C-0034, C-0261]
+password: [C-0012]
+token: [C-0012, C-0261]
+api key: [C-0012]
+api token: [C-0012]
+
+# authorization / rbac
+rbac: [C-0035, C-0034]
+cluster admin: [C-0035]
+cluster-admin role: [C-0035]
+cluster admin binding: [C-0035]
+service account: [C-0034]
+admin role: [C-0035]
+role binding: [C-0035, C-0034]
+
+# privilege / root / escalation
+privilege: [C-0013, C-0016]
+privilege escalation: [C-0016]
+root: [C-0013]
+non-root container: [C-0013]
+host pid: [C-0038]
+host ipc: [C-0038]
+container filesystem: [C-0017]
+immutable filesystem: [C-0017]
+
+# network / ingress / egress / exposure
+network: [C-0030]
+ingress: [C-0030]
+egress: [C-0030]
+exposed interface: [C-0021]
+exposure: [C-0256]
+internet exposure: [C-0256]
+network policy: [C-0030]
+
+# image / registry
+image: [C-0001, C-0078]
+image registry: [C-0001, C-0078]
+container registry: [C-0001, C-0078]
+allowed registry: [C-0078]
+
+# logging / audit / events
+audit log: [C-0067]
+audit logs: [C-0067]
+logging: [C-0067]
+kubernetes events: [C-0031]
+events: [C-0031]
+
+# resource limits / availability
+memory limit: [C-0004]
+cpu limit: [C-0050]
+resource limit: [C-0009]
+resource limits: [C-0009]
+
+# admission control
+admission controller: [C-0036, C-0039]
+validating admission: [C-0036]
+mutating admission: [C-0039]
+
+# api server
+api server: [C-0005]
+api server port: [C-0005]
+
+# dashboard / ui
+dashboard: [C-0014]
+kubernetes dashboard: [C-0014]
+
+# pii / email / generic data protection (fall back to credential/secret handling)
+email: [C-0012, C-0015]
+pii: [C-0012, C-0015]
+personal data: [C-0012, C-0015]
+
+# fallback for unknown KDEs — reasonable defaults covering privilege/credentials/network
+_fallback: [C-0013, C-0016, C-0012]
