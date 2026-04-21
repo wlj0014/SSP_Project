@@ -9,7 +9,7 @@ Extracts Key Data Elements (KDEs) from CIS Kubernetes benchmark PDFs, compares K
 - Isaac Summerford (ins0008@auburn.edu)
 
 ## Model Used
-Gemma-3-4B (HuggingFace: `google/gemma-3-4b-it`)
+Gemma-3-1B (HuggingFace: `google/gemma-3-1b-it`)
 
 ## Quick start
 ```

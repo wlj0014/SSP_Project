@@ -8,9 +8,10 @@ from src.T1_Extractor import (
     build_chain_of_thought_prompt,
     build_few_shot_prompt,
     build_zero_shot_prompt,
-    dump_llm_outputs_to_text,  
+    dump_llm_outputs_to_text,
     identify_kdes_with_prompts,
-    load_and_validate_documents, 
+    load_and_validate_documents,
+    _extract_cis_titles,
 )
 
 # These classes test the behavior of PdfReader
@@ -68,11 +69,11 @@ class TestT1Extractor(unittest.TestCase):
 
 
 
-    def test_build_chain_of_thought_prompt(self) -> None: 
+    def test_build_chain_of_thought_prompt(self) -> None:
 
         prompt = build_chain_of_thought_prompt("d1.pdf", "Alpha", "d2.pdf", "Beta")
-        self.assertIn("Internally reason", prompt)
-        self.assertIn("Return only final JSON", prompt) 
+        self.assertIn("Internally reason through these steps", prompt)
+        self.assertIn("Normalize synonyms", prompt)
 
 
 
@@ -122,17 +123,37 @@ class TestT1Extractor(unittest.TestCase):
             content = out.read_text(encoding="utf-8")   
  
 
-        self.assertIn("*LLM Name*", content)  
-        self.assertIn("*Prompt Used*", content)  
-        self.assertIn("*Prompt Type*", content)  
+        self.assertIn("*LLM Name*", content)
+        self.assertIn("*Prompt Used*", content)
+        self.assertIn("*Prompt Type*", content)
         self.assertIn("*LLM Output*", content)
 
-   
 
-     
-  
+    def test_extract_cis_titles(self) -> None:
 
- 
+        sample = (
+            "Page 17\n"
+            "\n"
+            "Some introductory prose that should be ignored.\n"
+            "3.2.1 Ensure that Anonymous Auth is Not Enabled (Automated)\n"
+            "4.1.3 Ensure that the kubelet service file permissions are set (Manual)\n"
+            "\n"
+            "5.10.2 Minimize the admission of privileged containers (Automated)\n"
+            "14\n"
+            "More prose without a match.\n"
+        )
+
+        result = _extract_cis_titles(sample)
+        lines = result.split("\n")
+
+        self.assertEqual(len(lines), 3)
+        self.assertIn("3.2.1 Ensure that Anonymous Auth is Not Enabled (Automated)", lines)
+        self.assertIn("4.1.3 Ensure that the kubelet service file permissions are set (Manual)", lines)
+        self.assertIn("5.10.2 Minimize the admission of privileged containers (Automated)", lines)
+        self.assertNotIn("Page 17", result)
+        self.assertNotIn("introductory prose", result)
+
+
 if __name__ == "__main__":
     unittest.main()
 
