@@ -29,8 +29,9 @@ def build_zero_shot_prompt(doc1_name: str, doc1_text: str, doc2_name: str, doc2_
 You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendations.
 Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
 For each recommendation produce one KDE where:
-- name = the concise subject of the recommendation (a short noun phrase)
-- requirements = the full recommendation title text
+- name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+- requirements MUST be the full recommendation title verbatim.
+Do not invent content. Do not summarize or rephrase.
 
 Document 1 Name: {doc1_name}
 Document 1 Titles:
@@ -51,27 +52,21 @@ def build_few_shot_prompt(doc1_name: str, doc1_text: str, doc2_name: str, doc2_t
     return f"""
 You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendations.
 Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
-For each recommendation produce one KDE where name is the concise subject and requirements is the full title text.
+The name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+The requirement MUST be the full recommendation title verbatim.
+Do not invent content. Do not rephrase.
 
-Example input:
-Document A: User profile shall store full name and email. Password must be at least 12 chars.
-Document B: Account must include username, email, and MFA preference.
+Example 1:
+Document: cis-r1.pdf
+Recommendation: 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+Output KDE: {{"name": "Anonymous Auth", "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]}}
 
-Example output JSON:
-{{
-  "doc1": [
-    {{"name": "full name", "requirements": ["User profile shall store full name"]}},
-    {{"name": "email", "requirements": ["User profile shall store email"]}},
-    {{"name": "password", "requirements": ["Password must be at least 12 chars"]}}
-  ],
-  "doc2": [
-    {{"name": "username", "requirements": ["Account must include username"]}},
-    {{"name": "email", "requirements": ["Account must include email"]}},
-    {{"name": "MFA preference", "requirements": ["Account must include MFA preference"]}}
-  ]
-}}
+Example 2:
+Document: cis-r1.pdf
+Recommendation: 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)
+Output KDE: {{"name": "kubeconfig file permissions", "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)"]}}
 
-Now do the same for the two documents below.
+Now apply the same extraction to every title in the two documents below.
 
 Document 1 Name: {doc1_name}
 Document 1 Titles:
@@ -94,11 +89,15 @@ You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendatio
 Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
 
 Internally reason through these steps without writing them down:
-1. Detect each candidate KDE (the subject noun phrase of each title).
-2. Normalize synonyms so equivalent subjects collapse to the same name.
-3. Map each KDE to every recommendation title that references it.
+1. For each title, identify the subject noun phrase (2-6 words).
+2. Copy the full recommendation title verbatim as the requirement.
+3. Collapse identical subjects across titles into a single KDE whose requirements list contains every matching title.
 
-Do not expose your reasoning. Return only the final JSON object.
+Rules:
+- The name MUST be copied from the input titles.
+- The requirement MUST be the verbatim full title line.
+- Do not invent content. Do not summarize.
+- Do not expose your reasoning. Return only the final JSON object.
 
 Document 1 Name: {doc1_name}
 Document 1 Titles:
@@ -128,50 +127,65 @@ def identify_kdes_with_prompts(
     out_dir.mkdir(parents=True, exist_ok=True)
     copy_prompt_markdown_to_output(out_dir)
 
-    builders = [
-        ("zero-shot", build_zero_shot_prompt),
-        ("few-shot", build_few_shot_prompt),
-        ("chain-of-thought", build_chain_of_thought_prompt),
+    styles: list[tuple[str, Callable[[str, str], str], Callable[[str, str, str, str], str]]] = [
+        ("zero-shot", _build_per_title_zero_shot, build_zero_shot_prompt),
+        ("few-shot", _build_per_title_few_shot, build_few_shot_prompt),
+        ("chain-of-thought", _build_per_title_chain_of_thought, build_chain_of_thought_prompt),
     ]
 
     llm = generator if generator is not None else make_llm(model_name, max_new_tokens)
 
+    titles = {
+        "doc1": _extract_cis_title_list(docs["doc1"]["text"]),
+        "doc2": _extract_cis_title_list(docs["doc2"]["text"]),
+    }
+
     merged: dict[str, dict[str, set[str]]] = {"doc1": {}, "doc2": {}}
     all_runs: list[dict[str, str]] = []
 
-    for prompt_type, make_prompt in builders:
+    for style_name, per_title_builder, big_builder in styles:
+        per_style_outputs: list[str] = []
 
-        doc1_titles = _extract_cis_titles(docs["doc1"]["text"])
-        doc2_titles = _extract_cis_titles(docs["doc2"]["text"])
-        prompt = make_prompt(docs["doc1"]["name"], doc1_titles, docs["doc2"]["name"], doc2_titles)
+        for doc_key in ["doc1", "doc2"]:
+            doc_name = docs[doc_key]["name"]
+            for title in titles[doc_key]:
+                prompt = per_title_builder(doc_name, title)
+                raw = llm(prompt)
+                per_style_outputs.append(f"[{doc_key}] {title}\n{raw}")
 
-        raw = llm(prompt)
-        parsed = safe_parse_output(raw)
+                parsed = _parse_single_kde(raw)
+                if parsed is None:
+                    continue
 
-        for which_doc in ["doc1", "doc2"]:
-            for item in parsed.get(which_doc, []):
-                name = str(item.get("name", "")).strip().lower()
+                name = str(parsed.get("name", "")).strip().lower()
                 if not name:
                     continue
 
-                if name not in merged[which_doc]:
-                    merged[which_doc][name] = set()
+                if name not in merged[doc_key]:
+                    merged[doc_key][name] = set()
 
-                reqs = item.get("requirements", [])
+                reqs = parsed.get("requirements", [])
                 if not isinstance(reqs, list):
                     reqs = [str(reqs)]
 
                 for req in reqs:
                     req_clean = str(req).strip()
                     if req_clean:
-                        merged[which_doc][name].add(req_clean)
+                        merged[doc_key][name].add(req_clean)
+
+        big_prompt = big_builder(
+            docs["doc1"]["name"],
+            _extract_cis_titles(docs["doc1"]["text"]),
+            docs["doc2"]["name"],
+            _extract_cis_titles(docs["doc2"]["text"]),
+        )
 
         all_runs.append(
             {
                 "llm_name": model_name,
-                "prompt_used": prompt,
-                "prompt_type": prompt_type,
-                "llm_output": raw,
+                "prompt_used": big_prompt,
+                "prompt_type": style_name,
+                "llm_output": "\n\n---\n\n".join(per_style_outputs),
             }
         )
 
@@ -300,6 +314,86 @@ def _extract_cis_titles(pdf_text: str) -> str:
     matches = _CIS_TITLE_PATTERN.finditer(pdf_text)
     lines = [f"{m.group(1)} {m.group(2)} ({m.group(3)})" for m in matches]
     return "\n".join(lines)
+
+
+def _extract_cis_title_list(pdf_text: str) -> list[str]:
+    matches = _CIS_TITLE_PATTERN.finditer(pdf_text)
+    return [f"{m.group(1)} {m.group(2)} ({m.group(3)})" for m in matches]
+
+
+def _build_per_title_zero_shot(doc_name: str, title: str) -> str:
+    return f"""You extract ONE Key Data Element (KDE) from a single CIS security recommendation.
+Rules:
+- The name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+- The requirement MUST be the full recommendation text verbatim.
+- Do not invent content.
+- Do not summarize or rephrase the requirement.
+
+Document: {doc_name}
+Recommendation: {title}
+
+Respond with a single JSON object in this exact shape, starting with `{{`:
+{{"name": "<noun phrase>", "requirements": ["<full verbatim recommendation>"]}}
+
+Output:"""
+
+
+def _build_per_title_few_shot(doc_name: str, title: str) -> str:
+    return f"""You extract ONE Key Data Element (KDE) from a single CIS security recommendation.
+The name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+The requirement MUST be the full recommendation text verbatim.
+Do not invent content. Do not rephrase.
+
+Example 1:
+Document: cis-r1.pdf
+Recommendation: 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+Output: {{"name": "Anonymous Auth", "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]}}
+
+Example 2:
+Document: cis-r1.pdf
+Recommendation: 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)
+Output: {{"name": "kubeconfig file permissions", "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)"]}}
+
+Now extract from:
+Document: {doc_name}
+Recommendation: {title}
+Output:"""
+
+
+def _build_per_title_chain_of_thought(doc_name: str, title: str) -> str:
+    return f"""You extract ONE Key Data Element (KDE) from a single CIS security recommendation.
+Internally reason through: (1) identify the subject noun phrase (2-6 words), (2) copy the full recommendation verbatim as the requirement. Do not show your reasoning.
+
+Rules:
+- The name MUST be a short noun phrase (2-6 words) from the recommendation.
+- The requirement MUST be the full recommendation text verbatim.
+- Do not invent content.
+
+Document: {doc_name}
+Recommendation: {title}
+
+Respond with ONLY a single JSON object in this exact shape:
+{{"name": "<noun phrase>", "requirements": ["<full verbatim recommendation>"]}}
+
+Output:"""
+
+
+def _parse_single_kde(raw_text: str) -> dict[str, Any] | None:
+    decoder = json.JSONDecoder()
+    pos = 0
+    while pos < len(raw_text):
+        brace = raw_text.find("{", pos)
+        if brace == -1:
+            return None
+        try:
+            obj, end = decoder.raw_decode(raw_text[brace:])
+        except json.JSONDecodeError:
+            pos = brace + 1
+            continue
+        if isinstance(obj, dict) and "name" in obj:
+            return obj
+        pos = brace + end
+    return None
 
 
 def safe_parse_output(raw_text: str) -> dict[str, list[dict[str, Any]]]:
