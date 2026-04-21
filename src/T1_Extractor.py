@@ -303,27 +303,28 @@ def _extract_cis_titles(pdf_text: str) -> str:
 
 
 def safe_parse_output(raw_text: str) -> dict[str, list[dict[str, Any]]]:
-    match = re.search(r"\{.*\}", raw_text, flags=re.DOTALL)
-    if not match:
-        return {"doc1": [], "doc2": []}
-
-    data = json.loads(match.group(0))
-    if not isinstance(data, dict):
-        return {"doc1": [], "doc2": []}
-
     fixed: dict[str, list[dict[str, Any]]] = {"doc1": [], "doc2": []}
-
-    for doc_key in ["doc1", "doc2"]:
-
-        items = data.get(doc_key, [])
-
-        if not isinstance(items, list):
+    decoder = json.JSONDecoder()
+    pos = 0
+    while pos < len(raw_text):
+        brace = raw_text.find("{", pos)
+        if brace == -1:
+            break
+        try:
+            obj, end = decoder.raw_decode(raw_text[brace:])
+        except json.JSONDecodeError:
+            pos = brace + 1
             continue
-
-        for one in items:
-            if isinstance(one, dict):
-                fixed[doc_key].append(one)
-
+        pos = brace + end
+        if not isinstance(obj, dict):
+            continue
+        for doc_key in ["doc1", "doc2"]:
+            items = obj.get(doc_key, [])
+            if not isinstance(items, list):
+                continue
+            for one in items:
+                if isinstance(one, dict):
+                    fixed[doc_key].append(one)
     return fixed
 
 
