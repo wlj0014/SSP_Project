@@ -305,20 +305,27 @@ def make_llm(model_name: str, max_new_tokens: int) -> Callable[[str], str]:
 
 
 _CIS_TITLE_PATTERN = re.compile(
-    r'^(\d+(?:\.\d+)+)\s+(.+?)\s*\((Automated|Manual)\)\s*$',
-    flags=re.MULTILINE,
+    r'(\d+\.\d+\.\d+(?:\.\d+)*)\s+(.+?)\s*\((Automated|Manual)\)'
 )
 
-
-def _extract_cis_titles(pdf_text: str) -> str:
-    matches = _CIS_TITLE_PATTERN.finditer(pdf_text)
-    lines = [f"{m.group(1)} {m.group(2)} ({m.group(3)})" for m in matches]
-    return "\n".join(lines)
+_WS_PATTERN = re.compile(r'\s+')
 
 
 def _extract_cis_title_list(pdf_text: str) -> list[str]:
-    matches = _CIS_TITLE_PATTERN.finditer(pdf_text)
-    return [f"{m.group(1)} {m.group(2)} ({m.group(3)})" for m in matches]
+    seen: set[str] = set()
+    titles: list[str] = []
+    for m in _CIS_TITLE_PATTERN.finditer(pdf_text):
+        section = m.group(1)
+        if section in seen:
+            continue
+        seen.add(section)
+        title = _WS_PATTERN.sub(" ", m.group(2)).strip()
+        titles.append(f"{section} {title} ({m.group(3)})")
+    return titles
+
+
+def _extract_cis_titles(pdf_text: str) -> str:
+    return "\n".join(_extract_cis_title_list(pdf_text))
 
 
 def _build_per_title_zero_shot(doc_name: str, title: str) -> str:
