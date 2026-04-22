@@ -1,0 +1,707 @@
+FilePath,Severity,Control name,Failed resources,All Resources,Compliance score
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpmm8_46q3,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpmm8_46q3,Medium,Non-root containers,379,385,1.5584415

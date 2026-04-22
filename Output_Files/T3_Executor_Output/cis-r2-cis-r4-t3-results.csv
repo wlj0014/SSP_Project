@@ -1,0 +1,1513 @@
+FilePath,Severity,Control name,Failed resources,All Resources,Compliance score
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+//ServiceAccount/litmus-admin/path=2939547588/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-admin/path=2989880445/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-admin,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1389859238/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role/path=2937432610/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/monitoring/ServiceAccount/kube-state-metrics/path=2926910356/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics/path=3415447869/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/default/ServiceAccount/grafana-operator-controller-manager/path=2082006846/api=rbac.authorization.k8s.io/v1/default/Role/grafana-operator-permissions/path=2098784465/api=rbac.authorization.k8s.io/v1/default/RoleBinding/grafana-operator-permissions,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-applicationset-controller/path=363670772/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller/path=369088611/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-server/path=2399621795/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=688157562/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=3277536337/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/default/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3186283350/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=1210077393/api=rbac.authorization.k8s.io/v1//ClusterRole/event-tracker-cr-for-litmusportal-server/path=1855965393/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/event-tracker-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount//path=2872437112/api=rbac.authorization.k8s.io/v1//ClusterRole/subscriber-cluster-role/path=2889214731/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/subscriber-cluster-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/deviceshifu/ServiceAccount/edgedevice-sa/path=2078905470/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/deviceshifu-secret-view-clusterrolebinding/path=3105447927/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view,High,List Kubernetes secrets,202,914,77.899345
+/spire/ServiceAccount/spire-server/path=1299861037/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-role-binding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2574516067/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=372712709/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/central-namespace/ServiceAccount/test-service-account/path=2238717694/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/mongodb-enterprise-operator-multi-cluster-role-binding/path=2255495313/api=rbac.authorization.k8s.io/v1//ClusterRole/mongodb-enterprise-operator-multi-cluster-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=2628778356/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding/path=4096860283/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/litmus/ServiceAccount/litmus-server-account/path=192025307/api=rbac.authorization.k8s.io/v1//ClusterRole/chaos-cr-for-litmusportal-server/path=3412360237/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/chaos-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/system/ServiceAccount/default/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3186283350/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/default/ServiceAccount/kubeshark-service-account/path=3973037332/api=rbac.authorization.k8s.io/v1/default/Role/kubeshark-self-config-role/path=4023370189/api=rbac.authorization.k8s.io/v1/default/RoleBinding/kubeshark-self-config-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=225954316/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role/path=242731935/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2574516067/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=363670772/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/default/path=3186283350/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2453284560/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=2517065128/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=2665546391/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb/path=3905237395/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/longhorn-system/ServiceAccount/longhorn-uninstall-service-account/path=2677168176/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/longhorn-uninstall-bind/path=2727501033/api=rbac.authorization.k8s.io/v1//ClusterRole/longhorn-uninstall-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=158470069/api=rbac.authorization.k8s.io/v1/litmus/ClusterRole/subscriber-cr-for-litmusportal-server/path=3177473571/api=rbac.authorization.k8s.io/v1/litmus/ClusterRoleBinding/subscriber-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/argo-rollouts/ServiceAccount/argo-rollouts/path=1091856977/api=rbac.authorization.k8s.io/v1//ClusterRole/argo-rollouts/path=4276808847/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argo-rollouts,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/secure/ServiceAccount/reconciler/path=3317711979/api=rbac.authorization.k8s.io/v1/secure/Role/reconciler/path=3334489598/api=rbac.authorization.k8s.io/v1/secure/RoleBinding/reconciler,Medium,Administrative Roles,22,914,97.592995
+/secure/ServiceAccount/reconciler/path=3317711979/api=rbac.authorization.k8s.io/v1/secure/Role/reconciler/path=3334489598/api=rbac.authorization.k8s.io/v1/secure/RoleBinding/reconciler,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-server/path=2470062179/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=355935090/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-operator/path=2464214963/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-operator/path=4073013585/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-operator,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3277536337/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=3362027380/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-admin-cr-for-litmusportal-server/path=3378804999/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-admin-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/mongodb/ServiceAccount/mongodb-enterprise-operator/path=2464214963/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-operator/path=2548103058/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-operator,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=3786060670/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role/path=3802838289/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=3888459776/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb/path=3905237395/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3181912268/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=3562486683/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb/path=3888459776/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=242731935/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding/path=3786060670/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/default/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3186283350/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/seldon/ServiceAccount/ambassador/path=4167746920/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/ambassador/path=4201302158/api=rbac.authorization.k8s.io/v1//ClusterRole/ambassador,High,List Kubernetes secrets,202,914,77.899345
+/flux-system/ServiceAccount/image-reflector-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/spire/ServiceAccount/spire-server/path=1299861037/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-role-binding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-server/path=2470062179/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=688157562/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/monitoring/ServiceAccount/prometheus-k8s/path=3831721783/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-k8s/path=4050765492/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-k8s,Medium,Administrative Roles,22,914,97.592995
+/monitoring/ServiceAccount/prometheus-k8s/path=3831721783/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-k8s/path=4050765492/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-k8s,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-server/path=1569731230/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server/path=2470062179/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/flux-system/ServiceAccount/notification-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3277536337/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/argocd/ServiceAccount/argocd-server/path=1569731230/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server/path=1984259761/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/controller-manager/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3277536337/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/kubeeye-system/ServiceAccount/kubeeye-controller-manager/path=1052115203/api=rbac.authorization.k8s.io/v1//ClusterRole/kubeeye-manager-role/path=1253446631/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kubeeye-manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/spire/ServiceAccount/spire-server/path=1299861037/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-role-binding/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=3395582618/api=rbac.authorization.k8s.io/v1//ClusterRole/chaos-cr-for-litmusportal-server/path=3412360237/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/chaos-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+//ServiceAccount/litmus-admin/path=2318098678/api=rbac.authorization.k8s.io/v1//Role/litmus-admin/path=2368431535/api=rbac.authorization.k8s.io/v1//RoleBinding/litmus-admin,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/controller-manager/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=87588403/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=242358164/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-cluster-scope-crb-for-litmusportal-server/path=3328472142/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-cluster-scope-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=242358164/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-cluster-scope-crb-for-litmusportal-server/path=259135783/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-cluster-scope-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/spire/ServiceAccount/spire-server/path=1299861037/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-role-binding/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=2628778356/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding/path=2954210229/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/controller-manager/path=3277536337/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/default/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3356161056/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/istio-system/ServiceAccount/kiali/path=3744899607/api=rbac.authorization.k8s.io/v1/istio-system/Role/kiali-controlplane/path=3761677226/api=rbac.authorization.k8s.io/v1/istio-system/RoleBinding/kiali-controlplane,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=2665546391/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb/path=3562486683/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=1429135707/api=rbac.authorization.k8s.io/v1/member-namespace/Role/mongodb-enterprise-appdb/path=3562486683/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/litmus/ServiceAccount/litmus-server-account/path=208802926/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-admin-crb-for-litmusportal-server/path=3362027380/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-admin-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount//path=2284543440/api=rbac.authorization.k8s.io/v1//RoleBinding/subscriber-role-binding/path=2301321059/api=rbac.authorization.k8s.io/v1//Role/subscriber-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/deviceshifu/ServiceAccount/edgedevice-sa/path=2078905470/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/deviceshifu-secret-view-clusterrolebinding/path=2628146147/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/argocd/ServiceAccount/argocd-server/path=2399621795/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=355935090/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/default/ServiceAccount/reloader-reloader/path=2090839958/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/reloader-reloader-role-binding/path=4173689891/api=rbac.authorization.k8s.io/v1//ClusterRole/reloader-reloader-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/system/ServiceAccount/manager/path=2345645658/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/shifu-service/ServiceAccount/telemetry-service-sa/path=2095683089/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/telemetryservice-secret-view-clusterrolebinding/path=3105447927/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/member-namespace/ServiceAccount/test-service-account/path=3020729880/api=rbac.authorization.k8s.io/v1//ClusterRole/mongodb-enterprise-operator-multi-cluster-role/path=3037507499/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/mongodb-enterprise-operator-multi-cluster-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/metallb-system/ServiceAccount/controller/path=2668111618/api=rbac.authorization.k8s.io/v1/metallb-system/RoleBinding/controller/path=2877567645/api=rbac.authorization.k8s.io/v1/metallb-system/Role/controller,High,List Kubernetes secrets,202,914,77.899345
+/member-namespace/ServiceAccount/test-service-account/path=2255495313/api=rbac.authorization.k8s.io/v1//ClusterRole/mongodb-enterprise-operator-multi-cluster-role/path=3037507499/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/mongodb-enterprise-operator-multi-cluster-role-binding,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount/event-tracker-sa/path=1011140512/api=rbac.authorization.k8s.io/v1//RoleBinding/event-tracker-role-binding/path=2418764392/api=rbac.authorization.k8s.io/v1//Role/event-tracker-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2517065128/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller/path=2574516067/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/default/path=1181230259/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/webapp/ServiceAccount/reconciler/path=239170362/api=rbac.authorization.k8s.io/v1/webapp/RoleBinding/reconciler/path=3317711979/api=rbac.authorization.k8s.io/v1/secure/Role/reconciler,Medium,Administrative Roles,22,914,97.592995
+/webapp/ServiceAccount/reconciler/path=239170362/api=rbac.authorization.k8s.io/v1/webapp/RoleBinding/reconciler/path=3317711979/api=rbac.authorization.k8s.io/v1/secure/Role/reconciler,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount/argo-chaos/path=2905992350/api=rbac.authorization.k8s.io/v1//ClusterRole/chaos-cluster-role/path=2922769969/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/chaos-cluster-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/manager/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=2345645658/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-server/path=1569731230/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server/path=2399621795/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argocd/ServiceAccount/argocd-server/path=1984259761/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=355935090/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+//ServiceAccount/litmus-namespace-scope/path=1319773720/api=rbac.authorization.k8s.io/v1//RoleBinding/litmus-namespace-scope/path=1370106577/api=rbac.authorization.k8s.io/v1//Role/litmus-namespace-scope,High,List Kubernetes secrets,202,914,77.899345
+/default/ServiceAccount/grafana-operator-controller-manager/path=618824558/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/grafana-operator-permissions/path=635602177/api=rbac.authorization.k8s.io/v1//ClusterRole/grafana-operator-permissions,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/kube-state-metrics/path=2537144618/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics/path=2926910356/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-operator/path=4073013585/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-operator/path=4089791204/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-operator,High,List Kubernetes secrets,202,914,77.899345
+/monitoring-system/ServiceAccount/monitoring-system/path=4009919479/api=rbac.authorization.k8s.io/v1//ClusterRole/vm-operator-manager-role/path=978732813/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/vm-operator-manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=1429135707/api=rbac.authorization.k8s.io/v1/member-namespace/Role/mongodb-enterprise-appdb/path=3905237395/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=2648768772/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb/path=3545709064/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=4080082664/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding/path=4096860283/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/default/path=1181230259/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-applicationset-controller/path=369088611/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=372712709/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/kube-state-metrics/path=1833992318/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics/path=2537144618/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=2648768772/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb/path=3888459776/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/default/path=1181230259/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/litmus/ServiceAccount/litmus-server-account/path=208802926/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-admin-crb-for-litmusportal-server/path=225580545/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-admin-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=1839187774/api=rbac.authorization.k8s.io/v1//ClusterRole/event-tracker-cr-for-litmusportal-server/path=1855965393/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/event-tracker-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount/argo/path=1804076968/api=rbac.authorization.k8s.io/v1//RoleBinding/argo-binding/path=1854409825/api=rbac.authorization.k8s.io/v1//Role/argo-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/monitoring/ServiceAccount/prometheus-operator/path=1282805153/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-operator/path=2504573513/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-operator,High,List Kubernetes secrets,202,914,77.899345
+/shifu-service/ServiceAccount/telemetry-service-sa/path=3088670308/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/telemetryservice-secret-view-clusterrolebinding/path=3105447927/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=3328472142/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-cluster-scope-for-litmusportal-server/path=3345249761/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-cluster-scope-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/monitoring/ServiceAccount/prometheus-k8s/path=2351337415/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-k8s/path=3831721783/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-k8s,Medium,Administrative Roles,22,914,97.592995
+/monitoring/ServiceAccount/prometheus-k8s/path=2351337415/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-k8s/path=3831721783/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-k8s,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/system/ServiceAccount/default/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3356161056/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2453284560/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=363670772/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=87588403/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=2937432610/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding/path=2954210229/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3181912268/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/litmus/ServiceAccount/litmus-server-account/path=259135783/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-cluster-scope-for-litmusportal-server/path=3345249761/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-cluster-scope-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argo-rollouts/ServiceAccount/argo-rollouts/path=1091856977/api=rbac.authorization.k8s.io/v1//ClusterRole/argo-rollouts/path=1453782934/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argo-rollouts,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/litmus/ServiceAccount/litmus-server-account/path=141692450/api=rbac.authorization.k8s.io/v1/litmus/ClusterRoleBinding/subscriber-crb-for-litmusportal-server/path=3160695952/api=rbac.authorization.k8s.io/v1/litmus/ClusterRole/subscriber-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/deviceshifu/ServiceAccount/edgedevice-sa/path=3105447927/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view/path=3139003165/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/deviceshifu-secret-view-clusterrolebinding,High,List Kubernetes secrets,202,914,77.899345
+/shifu-service/ServiceAccount/telemetry-service-sa/path=2628146147/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view/path=3088670308/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/telemetryservice-secret-view-clusterrolebinding,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/default/path=3356161056/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2880965522/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=3181912268/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/monitoring/ServiceAccount/kube-state-metrics/path=1886998295/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics/path=2926910356/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=242731935/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding/path=3222102783/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role,High,List Kubernetes secrets,202,914,77.899345
+/default/ServiceAccount/reloader-reloader/path=2829925433/api=rbac.authorization.k8s.io/v1//ClusterRole/reloader-reloader-role/path=4190467510/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/reloader-reloader-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/flux-system/ServiceAccount/source-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/manager/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=2345645658/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/manager/path=2590760855/api=rbac.authorization.k8s.io/v1//Role/manager-sas-role/path=3463477549/api=rbac.authorization.k8s.io/v1//RoleBinding/manager-sas-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/monitoring/ServiceAccount/prometheus-operator/path=1226881667/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-operator/path=1282805153/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-operator,High,List Kubernetes secrets,202,914,77.899345
+/secure/ServiceAccount/reconciler/path=222392743/api=rbac.authorization.k8s.io/v1/webapp/Role/reconciler/path=3334489598/api=rbac.authorization.k8s.io/v1/secure/RoleBinding/reconciler,Medium,Administrative Roles,22,914,97.592995
+/secure/ServiceAccount/reconciler/path=222392743/api=rbac.authorization.k8s.io/v1/webapp/Role/reconciler/path=3334489598/api=rbac.authorization.k8s.io/v1/secure/RoleBinding/reconciler,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/spire/ServiceAccount/spire-server/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=1299861037/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=3545709064/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb/path=3562486683/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/central-namespace/ServiceAccount/test-service-account/path=2238717694/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/mongodb-enterprise-operator-multi-cluster-role-binding/path=3020729880/api=rbac.authorization.k8s.io/v1//ClusterRole/mongodb-enterprise-operator-multi-cluster-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2453284560/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller/path=372712709/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/flux-system/ServiceAccount/image-automation-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/manager/path=2345645658/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=1193299774/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/event-tracker-crb-for-litmusportal-server/path=1839187774/api=rbac.authorization.k8s.io/v1//ClusterRole/event-tracker-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/shifu-service/ServiceAccount/telemetry-service-sa/path=2095683089/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/telemetryservice-secret-view-clusterrolebinding/path=2628146147/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/prometheus-operator/path=1049981958/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-operator/path=1226881667/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-operator,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=225954316/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role/path=3802838289/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=120976097/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=87588403/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/manager/path=257841754/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-sas-role/path=3892922240/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-sas-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=87588403/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/flux-system/ServiceAccount/kustomize-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=1429135707/api=rbac.authorization.k8s.io/v1/member-namespace/Role/mongodb-enterprise-appdb/path=2648768772/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=2937432610/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding/path=4096860283/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/deviceshifu/ServiceAccount/edgedevice-sa/path=2628146147/api=rbac.authorization.k8s.io/v1//ClusterRole/secret-view/path=3139003165/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/deviceshifu-secret-view-clusterrolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=3160695952/api=rbac.authorization.k8s.io/v1/litmus/ClusterRole/subscriber-cr-for-litmusportal-server/path=3177473571/api=rbac.authorization.k8s.io/v1/litmus/ClusterRoleBinding/subscriber-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=87588403/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/default/path=1181230259/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=2954210229/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role/path=4080082664/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/litmus/ServiceAccount/litmus-server-account/path=225580545/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-admin-cr-for-litmusportal-server/path=3378804999/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-admin-crb-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/longhorn-system/ServiceAccount/longhorn-service-account/path=178337021/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/longhorn-bind/path=4255048175/api=rbac.authorization.k8s.io/v1//ClusterRole/longhorn-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-server/path=1984259761/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-server/path=688157562/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=2533842747/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/member-namespace/ServiceAccount/test-service-account/path=1412358088/api=rbac.authorization.k8s.io/v1/member-namespace/Role/mongodb-enterprise-operator-multi-role/path=1445913326/api=rbac.authorization.k8s.io/v1/member-namespace/RoleBinding/mongodb-enterprise-operator-multi-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=3545709064/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb/path=3905237395/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/kube-state-metrics/path=3415447869/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics/path=640060487/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/monitoring/ServiceAccount/kube-state-metrics/path=1833992318/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics/path=1886998295/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/default/ServiceAccount/reloader-reloader/path=2090839958/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/reloader-reloader-role-binding/path=2829925433/api=rbac.authorization.k8s.io/v1//ClusterRole/reloader-reloader-role,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/prometheus-operator/path=1049981958/api=rbac.authorization.k8s.io/v1//ClusterRole/prometheus-operator/path=2504573513/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/prometheus-operator,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/manager/path=2345645658/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/litmus/ServiceAccount/litmus-server-account/path=141692450/api=rbac.authorization.k8s.io/v1/litmus/ClusterRoleBinding/subscriber-crb-for-litmusportal-server/path=158470069/api=rbac.authorization.k8s.io/v1/litmus/ClusterRole/subscriber-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=175247688/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/chaos-crb-for-litmusportal-server/path=192025307/api=rbac.authorization.k8s.io/v1//ClusterRole/chaos-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1244590853/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding/path=225954316/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role,High,List Kubernetes secrets,202,914,77.899345
+/webapp/ServiceAccount/reconciler/path=222392743/api=rbac.authorization.k8s.io/v1/webapp/Role/reconciler/path=239170362/api=rbac.authorization.k8s.io/v1/webapp/RoleBinding/reconciler,Medium,Administrative Roles,22,914,97.592995
+/webapp/ServiceAccount/reconciler/path=222392743/api=rbac.authorization.k8s.io/v1/webapp/Role/reconciler/path=239170362/api=rbac.authorization.k8s.io/v1/webapp/RoleBinding/reconciler,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/kube-state-metrics/path=2537144618/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics/path=640060487/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/default/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3356161056/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/default/path=3186283350/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/member-namespace/ServiceAccount/test-service-account/path=1445913326/api=rbac.authorization.k8s.io/v1/member-namespace/RoleBinding/mongodb-enterprise-operator-multi-role-binding/path=2296576876/api=rbac.authorization.k8s.io/v1/central-namespace/Role/mongodb-enterprise-operator-multi-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/argo-rollouts/ServiceAccount/argo-rollouts/path=1453782934/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argo-rollouts/path=2050436000/api=rbac.authorization.k8s.io/v1//ClusterRole/argo-rollouts,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/central-namespace/ServiceAccount/test-service-account/path=1412358088/api=rbac.authorization.k8s.io/v1/member-namespace/Role/mongodb-enterprise-operator-multi-role/path=2313354495/api=rbac.authorization.k8s.io/v1/central-namespace/RoleBinding/mongodb-enterprise-operator-multi-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/argo-rollouts/ServiceAccount/argo-rollouts/path=2050436000/api=rbac.authorization.k8s.io/v1//ClusterRole/argo-rollouts/path=4276808847/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argo-rollouts,High,List Kubernetes secrets,202,914,77.899345
+/metallb-system/ServiceAccount/speaker/path=2584223523/api=rbac.authorization.k8s.io/v1/metallb-system/RoleBinding/pod-lister/path=2651333999/api=rbac.authorization.k8s.io/v1/metallb-system/Role/pod-lister,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1389859238/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role/path=4080082664/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/system/ServiceAccount/controller-manager/path=1464864787/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role/path=3181912268/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=47050184/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=2503617417/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller/path=2729359070/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+//ServiceAccount/litmus-cluster-scope/path=3145897519/api=rbac.authorization.k8s.io/v1//ClusterRole/litmus-cluster-scope/path=3162675138/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/litmus-cluster-scope,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/system/ServiceAccount/default/path=3356161056/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=736734862/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+//ServiceAccount/event-tracker-sa/path=2855659493/api=rbac.authorization.k8s.io/v1//ClusterRole/event-tracker-cluster-role/path=3622802743/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/event-tracker-clusterole-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/mongodb/ServiceAccount/mongodb-enterprise-operator/path=2548103058/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-operator/path=4089791204/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-operator,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-applicationset-controller/path=2517065128/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-applicationset-controller/path=369088611/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-applicationset-controller,High,List Kubernetes secrets,202,914,77.899345
+/kong/ServiceAccount/kong-serviceaccount/path=2955664223/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kong-ingress/path=740234485/api=rbac.authorization.k8s.io/v1//ClusterRole/kong-ingress,High,List Kubernetes secrets,202,914,77.899345
+/central-namespace/ServiceAccount/test-service-account/path=2296576876/api=rbac.authorization.k8s.io/v1/central-namespace/Role/mongodb-enterprise-operator-multi-role/path=2313354495/api=rbac.authorization.k8s.io/v1/central-namespace/RoleBinding/mongodb-enterprise-operator-multi-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/default/ServiceAccount/reloader-reloader/path=4173689891/api=rbac.authorization.k8s.io/v1//ClusterRole/reloader-reloader-role/path=4190467510/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/reloader-reloader-role-binding,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=3222102783/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role/path=3802838289/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/system/ServiceAccount/default/path=1181230259/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=2632117545/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=2921278705/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/flux-system/ServiceAccount/helm-controller/path=3016128092/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/crd-controller/path=3032905711/api=rbac.authorization.k8s.io/v1//ClusterRole/crd-controller,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1244590853/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding/path=3222102783/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role,High,List Kubernetes secrets,202,914,77.899345
+/monitoring/ServiceAccount/kube-state-metrics/path=1886998295/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics/path=640060487/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,Applications credentials in configuration files,44,552,92.028984
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/system/ServiceAccount/controller-manager/path=3181912268/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/manager-rolebinding/path=3653423852/api=rbac.authorization.k8s.io/v1//ClusterRole/manager-role,High,List Kubernetes secrets,202,914,77.899345
+//ServiceAccount/argo-chaos/path=2385209154/api=rbac.authorization.k8s.io/v1//RoleBinding/chaos-role-binding/path=2401986773/api=rbac.authorization.k8s.io/v1//Role/chaos-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/litmus/ServiceAccount/litmus-server-account/path=175247688/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/chaos-crb-for-litmusportal-server/path=3395582618/api=rbac.authorization.k8s.io/v1//ClusterRole/chaos-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/monitoring/ServiceAccount/kube-state-metrics/path=1833992318/api=rbac.authorization.k8s.io/v1//ClusterRole/kube-state-metrics/path=3415447869/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/kube-state-metrics,High,List Kubernetes secrets,202,914,77.899345
+/litmus/ServiceAccount/litmus-server-account/path=1193299774/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/event-tracker-crb-for-litmusportal-server/path=1210077393/api=rbac.authorization.k8s.io/v1//ClusterRole/event-tracker-cr-for-litmusportal-server,High,List Kubernetes secrets,202,914,77.899345
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1389859238/api=rbac.authorization.k8s.io/v1//ClusterRole/secretprovidersyncing-role/path=2628778356/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretprovidersyncing-rolebinding,High,List Kubernetes secrets,202,914,77.899345
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,Medium,Administrative Roles,22,914,97.592995
+/argocd/ServiceAccount/argocd-application-controller/path=255269376/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/argocd-application-controller/path=352310992/api=rbac.authorization.k8s.io/v1//ClusterRole/argocd-application-controller,High,List Kubernetes secrets,202,914,77.899345
+/mongodb/ServiceAccount/mongodb-enterprise-appdb/path=2648768772/api=rbac.authorization.k8s.io/v1/mongodb/RoleBinding/mongodb-enterprise-appdb/path=2665546391/api=rbac.authorization.k8s.io/v1/mongodb/Role/mongodb-enterprise-appdb,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/kube-system/ServiceAccount/secrets-store-csi-driver/path=1244590853/api=rbac.authorization.k8s.io/v1//ClusterRoleBinding/secretproviderrotation-rolebinding/path=3786060670/api=rbac.authorization.k8s.io/v1//ClusterRole/secretproviderrotation-role,High,List Kubernetes secrets,202,914,77.899345
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Automatic mapping of service account,153,609,74.87685
+/tmp/tmpd20for8q,High,ServiceAccount token mounted,91,210,56.666668
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
+/tmp/tmpd20for8q,Medium,Ingress and Egress blocked,338,422,19.905214
+/tmp/tmpd20for8q,Medium,Non-root containers,379,385,1.5584415
+/tmp/tmpd20for8q,Medium,Allow privilege escalation,283,386,26.683939
