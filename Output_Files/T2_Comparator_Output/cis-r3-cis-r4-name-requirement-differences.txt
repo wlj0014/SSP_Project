@@ -1,0 +1,80 @@
+--authorization-mode,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+--eventrecordqps,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+access,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Minimize access to create pods (Automated)
+access,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+access,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize access to create pods (Manual)
+access to create pods,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.4 Minimize access to create pods (Automated)
+access to create pods,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.4 Minimize access to create pods (Manual)
+admission,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+admission,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host network namespace
+admission,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host process ID namespace
+admission,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+admission,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of privileged containers (Manual)
+admission of containers wishing to share the host ipc namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+admission of containers wishing to share the host ipc namespace,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+admission of containers wishing to share the host network namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+admission of containers wishing to share the host network namespace,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+admission of containers wishing to share the host process id namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.2.2 Minimize the admission of containers wishing to share the host process ID namespace
+admission of containers wishing to share the host process id namespace,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+admission of containers with allowprivilegeescalation,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+admission of containers with allowprivilegeescalation,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+alwaysallow,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,NA
+amazoneksnetworkingpolicy,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+authorization mode,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Not set to AlwaysAllow (Automated)
+aws iam authenticator,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+cluster access manager,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+cluster access manager api,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+cluster admin,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+cluster admin,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Automated
+cluster admin,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Ensure that the cluster-admin role is only used where required (Manual)
+cluster admin,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+cluster-admin role,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+cluster-admin role,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+default service account,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Ensure that default service accounts are not actively used.
+default service account,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+default service accounts,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.5 Ensure that default service accounts are not actively used.
+default service accounts,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.5 Ensure that default service accounts are not actively used. (Manual)
+event capture,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+host process id namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,NA
+image scanning,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+image vulnerability scanning,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+ipc namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+ipc namespace,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace
+ipc namespace,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+kubernetes permissions,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+kubernetes permissions,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+kubernetes secrets,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+manual,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,NA
+namespaces,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+namespaces,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+network namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,NA
+network policy,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,NA
+persistent volumes,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+privileged containers,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.2.1 Minimize the admission of privileged containers (Automated)
+privileged containers,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Minimize the admission of privileged containers (Automated)
+privileged containers,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.1 Minimize the admission of privileged containers (Manual)
+proxy,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+proxy sub-resource,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+rbac,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+roles,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Minimize wildcard use in Roles and ClusterRoles (Automated)
+roles,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize wildcard use in Roles and ClusterRoles (Manual)
+rotate,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+rotate,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,rotate-certificates
+rotatekubeletservercertificate,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,RotateKubeletServerCertificate is set to true (Automated)
+secrets,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.2 Minimize access to secrets (Automated)
+secrets,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Automated
+secrets,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.2 Minimize access to secrets (Manual)
+secrets,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+service account,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+service account token,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Only mounted where necessary
+service account token,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+service account token creation,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+service account tokens,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+service account tokens,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,Ensure that Service Account Tokens are only mounted where necessary (Automated)
+service account tokens,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+service account tokens,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Ensure that Service Account Tokens are only mounted where necessary (Manual)
+volume access,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+webhook configuration,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+webhook configuration objects,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+wildcard use,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+wildcard use,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)

@@ -1,0 +1,150 @@
+--authorization-mode,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+--eventrecordqps,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.9 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+--eventrecordqps,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+--protect-kernel-defaults,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+--read-only-port,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.4 Ensure that the --read-only-port is disabled (Manual)
+--read-only-port,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.4 Ensure that the --read-only-port is disabled (Automated)
+administrative boundaries,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.6.1 Create administrative boundaries between resources using namespaces (Manual)
+administrative boundaries,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+admission,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of containers with added capabilities (Manual)
+admission,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+admission,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of containers with capabilities assigned (Automated)
+admission,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of privileged containers (Automated)
+admission,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host network namespace
+admission,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host process ID namespace
+admission,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+admission,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of privileged containers (Manual)
+admission of containers wishing to share the host ipc namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+admission of containers wishing to share the host ipc namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+admission of containers wishing to share the host network namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+admission of containers wishing to share the host network namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+admission of containers wishing to share the host process id namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.2.2 Minimize the admission of containers wishing to share the host process ID namespace
+admission of containers wishing to share the host process id namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+admission of containers with added capabilities,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+admission of containers with allowprivilegeescalation,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+admission of containers with allowprivilegeescalation,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+admission of containers with capabilities,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+admission of privileged containers,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+alwaysallow,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+amazoneksnetworkingpolicy,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+audit logs,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,2.1.1 Enable audit Logs (Manual)
+audit logs,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,2.1.1 Enable audit Logs (Automated)
+audit logs,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,2.1.2 Ensure audit logs are collected and managed (Manual)
+audit logs,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Audit logs are collected and managed
+audit logs,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Manual
+automated,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.7 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+automated,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+aws iam authenticator,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+aws iam authenticator for kubernetes,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+bind,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+bind,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+certificate rotation,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.10 Ensure that the --rotate-certificates argument is not present or is set to true (Manual)
+certificate rotation,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+client ca file,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.3 Ensure that a Client CA File is Configured (Manual)
+client ca file,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.3 Ensure that a Client CA File is Configured (Automated)
+cluster access manager,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+cluster access manager api,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+cluster admin,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+cluster admin,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Ensure that the cluster-admin role is only used where required (Manual)
+clusters,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.4.3 Ensure clusters are created with Private Nodes (Manual)
+clusters,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+clusters,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.3 Ensure clusters are created with Private Nodes (Automated)
+cni plugin supports network policies,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.3.1 Ensure CNI plugin supports network policies.
+cni plugin supports network policies,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.3.1 Ensure CNI plugin supports network policies. (Manual)
+container registries,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+container-optimized os,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+control plane endpoint,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.4.1 Restrict Access to the Control Plane Endpoint (Manual)
+control plane endpoint,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Restrict Access to the Control Plane Endpoint (Manual)
+control plane endpoint,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+control plane endpoint,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Restrict Access to the Control Plane Endpoint (Automated)
+default namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.6.3 The default namespace should not be used (Manual)
+default namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.5.2 The default namespace should not be used (Automated)
+default service accounts,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,4.1.5 Ensure that default service accounts are not actively used.
+default service accounts,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.5 Ensure that default service accounts are not actively used. (Manual)
+disabled port,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Manual
+disabled port,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.4 Ensure that the --read-only-port is disabled (Automated)
+eks service account,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.2.1 Prefer using dedicated EKS Service Accounts (Manual)
+eks service account,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+event capture,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.9 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+event capture,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+fargate,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+host process id namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+hostname-override,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+image scanning,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Manual)
+image scanning,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+image vulnerability scanning,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Manual)
+image vulnerability scanning,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+ipc namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+ipc namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace
+ipc namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+iptables-util-chains,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.7 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+iptables-util-chains,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+kernel defaults,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+kubeconfig,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)
+kubeconfig,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+kubeconfig file permissions,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)
+kubeconfig file permissions,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+kubelet,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Manual)
+kubelet,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,kubelet kubeconfig file ownership is set to root:root (Manual)
+kubelet,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+kubelet,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,kubelet kubeconfig file ownership is set to root:root (Automated)
+kubelet configuration,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Manual)
+kubelet configuration,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+kubelet configuration file,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Manual)
+kubelet configuration file,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+kubelet configuration file ownership,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Manual)
+kubelet configuration file ownership,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+kubelet configuration file permissions,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Manual)
+kubelet configuration file permissions,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+kubelet kubeconfig file ownership,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Manual)
+kubelet kubeconfig file ownership,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+kubernetes permissions,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+kubernetes permissions,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+kubernetes secrets,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,The default namespace should not be used (Manual)
+namespace,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,The default namespace should not be used (Automated)
+network namespace,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+network policy,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+os,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+os container,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+persistent volumes,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+pod,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+port,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.4 Ensure that the --read-only-port is disabled (Manual)
+port,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.4 Ensure that the --read-only-port is disabled (Automated)
+private endpoint,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Manual)
+private endpoint,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+private endpoint enabled,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Manual)
+private endpoint enabled,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+private nodes,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.4.3 Ensure clusters are created with Private Nodes (Manual)
+private nodes,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.4.3 Ensure clusters are created with Private Nodes (Automated)
+privileged containers,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Minimize the admission of privileged containers (Automated)
+privileged containers,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,4.2.1 Minimize the admission of privileged containers (Manual)
+proxy,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+proxy sub-resource,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+rbac,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes (Manual)
+rbac,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+root container,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+root containers,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+rotate,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Rotate certificates
+rotate,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,rotate-certificates
+rotate-certificates,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.10 Ensure that the --rotate-certificates argument is not present or is set to true (Manual)
+rotate-certificates,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+rotatekubeletservercertificate,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,3.2.11 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+rotatekubeletservercertificate,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+secrets,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Prefer using secrets as files over secrets as environment variables (Manual)
+secrets,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Minimize access to secrets
+secrets,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Prefer using secrets as files over secrets as environment variables (Automated)
+secrets as files,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+secrets file,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+security context,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+service account,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Service Account Tokens are only mounted where necessary (Manual)
+service account token,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+service account token creation,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+service account tokens,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,Manual
+service account tokens,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,Ensure that Service Account Tokens are only mounted where necessary (Manual)
+streaming-connection-idle-timeout,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+system,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+system:masters group,ABSENT-IN-cis-r4-kdes.yaml,PRESENT-IN-cis-r1-kdes.yaml,NA
+volume access,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+webhook configuration,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA
+webhook configuration objects,ABSENT-IN-cis-r1-kdes.yaml,PRESENT-IN-cis-r4-kdes.yaml,NA

@@ -1,0 +1,7 @@
+admission,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r2-kdes.yaml,Minimize the admission of privileged containers (Automated)
+authorizationmode,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r2-kdes.yaml,NA
+roles and clusterroles,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r2-kdes.yaml,NA
+rotate,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r2-kdes.yaml,rotate-certificates
+rotate,ABSENT-IN-cis-r2-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+rotatekubeletservercertificate,ABSENT-IN-cis-r3-kdes.yaml,PRESENT-IN-cis-r2-kdes.yaml,RotateKubeletServerCertificate is set to true (Automated)
+streaming connection idle timeout,ABSENT-IN-cis-r2-kdes.yaml,PRESENT-IN-cis-r3-kdes.yaml,3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)

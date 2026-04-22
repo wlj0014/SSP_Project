@@ -1,0 +1,38 @@
+--authorization-mode
+--protect-kernel-defaults
+admission of containers with added capabilities
+admission of containers with capabilities
+admission of privileged containers
+alwaysallow
+amazoneksnetworkingpolicy
+aws iam authenticator
+aws iam authenticator for kubernetes
+cluster access manager
+cluster access manager api
+container registries
+container-optimized os
+fargate
+host process id namespace
+hostname-override
+kernel defaults
+network namespace
+network policy
+os
+os container
+persistent volumes
+pod
+proxy
+proxy sub-resource
+root container
+root containers
+secrets as files
+secrets file
+security context
+service account token
+service account token creation
+streaming-connection-idle-timeout
+system
+system:masters group
+volume access
+webhook configuration
+webhook configuration objects

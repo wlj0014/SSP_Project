@@ -1,0 +1,314 @@
+element1:
+  name: --read-only-port
+  requirements:
+  - 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+element2:
+  name: access
+  requirements:
+  - Minimize access to create pods (Automated)
+element3:
+  name: access to create pods
+  requirements:
+  - 4.1.4 Minimize access to create pods (Automated)
+element4:
+  name: administrative boundaries
+  requirements:
+  - 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+element5:
+  name: admission
+  requirements:
+  - Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+element6:
+  name: admission of containers wishing to share the host ipc namespace
+  requirements:
+  - 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace
+element7:
+  name: admission of containers wishing to share the host network namespace
+  requirements:
+  - 4.2.4 Minimize the admission of containers wishing to share the host network namespace
+    (Automated)
+element8:
+  name: admission of containers wishing to share the host process id namespace
+  requirements:
+  - 4.2.2 Minimize the admission of containers wishing to share the host process ID
+    namespace
+element9:
+  name: admission of containers with allowprivilegeescalation
+  requirements:
+  - 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+element10:
+  name: alwaysallow
+  requirements:
+  - 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow
+    (Automated)
+element11:
+  name: amazon ecr
+  requirements:
+  - 5.1.2 Minimize user access to Amazon ECR (Manual)
+  - 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+  - Amazon ECR (Manual)
+  - Manual
+  - Minimize cluster access to read-only for Amazon ECR (Manual)
+element12:
+  name: anonymous auth
+  requirements:
+  - 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+element13:
+  name: audit logs
+  requirements:
+  - 2.1.1 Enable audit Logs (Automated)
+  - 2.1.2 Ensure audit logs are collected and managed (Manual)
+  - Audit logs are collected and managed
+  - Manual
+element14:
+  name: authorization mode
+  requirements:
+  - 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow
+    (Automated)
+element15:
+  name: automated
+  requirements:
+  - 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+element16:
+  name: bind
+  requirements:
+  - Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes
+    cluster (Manual)
+element17:
+  name: bind, impersonate and escalate permissions
+  requirements:
+  - 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes
+    cluster (Manual)
+element18:
+  name: certificate rotation
+  requirements:
+  - 3.2.8 Ensure that the --rotate-certificates argument is not present or is set
+    to true (Automated)
+element19:
+  name: client ca file
+  requirements:
+  - 3.2.3 Ensure that a Client CA File is Configured (Automated)
+element20:
+  name: cluster admin
+  requirements:
+  - 4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+  - Automated
+element21:
+  name: cluster-admin role
+  requirements:
+  - 4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+element22:
+  name: clusters
+  requirements:
+  - 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access
+    Disabled (Automated)
+  - 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+element23:
+  name: cni plugin
+  requirements:
+  - CNI plugin supports network policies.
+element24:
+  name: cni plugin supports network policies
+  requirements:
+  - 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+element25:
+  name: container registry
+  requirements:
+  - 5.1.4 Minimize Container Registries to only those approved (Manual)
+element26:
+  name: control plane endpoint
+  requirements:
+  - 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+  - Restrict Access to the Control Plane Endpoint (Automated)
+element27:
+  name: default namespace
+  requirements:
+  - 4.5.2 The default namespace should not be used (Automated)
+element28:
+  name: default service account
+  requirements:
+  - Ensure that default service accounts are not actively used.
+element29:
+  name: default service accounts
+  requirements:
+  - 4.1.5 Ensure that default service accounts are not actively used.
+element30:
+  name: disabled port
+  requirements:
+  - 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+element31:
+  name: eks service account
+  requirements:
+  - 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+element32:
+  name: external secret storage
+  requirements:
+  - 4.4.2 Consider external secret storage (Manual)
+element33:
+  name: host process id namespace
+  requirements:
+  - Minimize the admission of containers wishing to share the host process ID namespace
+    (Automated)
+element34:
+  name: ipc namespace
+  requirements:
+  - Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+element35:
+  name: iptables-util-chains
+  requirements:
+  - 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+element36:
+  name: kubeconfig
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+    (Automated)
+element37:
+  name: kubeconfig file permissions
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+    (Automated)
+element38:
+  name: kubelet
+  requirements:
+  - 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root
+    (Automated)
+  - kubelet kubeconfig file ownership is set to root:root (Automated)
+element39:
+  name: kubelet configuration
+  requirements:
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive (Automated)
+element40:
+  name: kubelet configuration file
+  requirements:
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive (Automated)
+element41:
+  name: kubelet configuration file ownership
+  requirements:
+  - 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root
+    (Automated)
+element42:
+  name: kubelet configuration file permissions
+  requirements:
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictive (Automated)
+element43:
+  name: kubelet kubeconfig file ownership
+  requirements:
+  - 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+element44:
+  name: kubernetes permissions
+  requirements:
+  - Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes
+    cluster (Manual)
+element45:
+  name: manual
+  requirements:
+  - 1.16.156 or greater (Manual)
+element46:
+  name: namespace
+  requirements:
+  - The default namespace should not be used (Automated)
+element47:
+  name: namespaces
+  requirements:
+  - 4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+element48:
+  name: network namespace
+  requirements:
+  - Minimize the admission of containers wishing to share the host network namespace
+    (Automated)
+element49:
+  name: network policy
+  requirements:
+  - 5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+  - Ensure Network Policy is Enabled and set as appropriate (Automated)
+element50:
+  name: port
+  requirements:
+  - 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+element51:
+  name: private endpoint
+  requirements:
+  - 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access
+    Disabled (Automated)
+element52:
+  name: private endpoint enabled
+  requirements:
+  - 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access
+    Disabled (Automated)
+element53:
+  name: private nodes
+  requirements:
+  - 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+element54:
+  name: privileged containers
+  requirements:
+  - 4.2.1 Minimize the admission of privileged containers (Automated)
+  - Minimize the admission of privileged containers (Automated)
+element55:
+  name: roles
+  requirements:
+  - Minimize wildcard use in Roles and ClusterRoles (Automated)
+element56:
+  name: rotate
+  requirements:
+  - 3.2.8 Ensure that the --rotate-certificates argument is not present or is set
+    to true (Automated)
+element57:
+  name: rotate-certificates
+  requirements:
+  - 3.2.8 Ensure that the --rotate-certificates argument is not present or is set
+    to true (Automated)
+element58:
+  name: rotatekubeletservercertificate
+  requirements:
+  - 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+element59:
+  name: secret storage
+  requirements:
+  - Consider external secret storage (Manual)
+element60:
+  name: secrets
+  requirements:
+  - 4.1.2 Minimize access to secrets (Automated)
+  - Automated
+  - Minimize access to secrets
+  - Prefer using secrets as files over secrets as environment variables (Automated)
+element61:
+  name: secrets file
+  requirements:
+  - 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+element62:
+  name: service account token
+  requirements:
+  - Only mounted where necessary
+element63:
+  name: service account tokens
+  requirements:
+  - 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+  - Ensure that Service Account Tokens are only mounted where necessary (Automated)
+element64:
+  name: streaming connection idle timeout
+  requirements:
+  - 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set
+    to 0 (Automated)
+  - Not set to 0
+element65:
+  name: streaming-connection-idle-timeout
+  requirements:
+  - 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set
+    to 0 (Automated)
+element66:
+  name: tls certificate
+  requirements:
+  - Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+element67:
+  name: tls certificates
+  requirements:
+  - 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+element68:
+  name: wildcard use
+  requirements:
+  - 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)

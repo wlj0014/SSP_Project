@@ -1,0 +1,3029 @@
+*LLM Name*
+google/gemma-3-1b-it
+*Prompt Used*
+You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendations.
+Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
+For each recommendation produce one KDE where:
+- name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+- requirements MUST be the full recommendation title verbatim.
+Do not invent content. Do not summarize or rephrase.
+
+Document 1 Name: cis-r3.pdf
+Document 1 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+4.1.2 Minimize access to secrets (Automated)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+4.1.4 Minimize access to create pods (Automated)
+4.1.5 Ensure that default service accounts are not actively used. (Automated)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.2.1 Minimize the admission of privileged containers (Automated)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+1.16.156 or greater (Manual)
+
+Document 2 Name: cis-r4.pdf
+Document 2 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+4.1.2 Minimize access to secrets (Manual)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+4.1.4 Minimize access to create pods (Manual)
+4.1.5 Ensure that default service accounts are not actively used. (Manual)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.1.9 Minimize access to create persistent volumes (Manual)
+4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+4.1.11 Minimize access to webhook configuration objects (Manual)
+4.1.12 Minimize access to the service account token creation (Manual)
+4.2.1 Minimize the admission of privileged containers (Manual)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+
+Output a single JSON object with this exact shape and nothing else:
+{"doc1": [{"name": "...", "requirements": ["..."]}], "doc2": [{"name": "...", "requirements": ["..."]}]}
+
+Respond now with JSON starting with {
+*Prompt Type*
+zero-shot
+*LLM Output*
+[doc1] 2.1.1 Enable audit Logs (Automated)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["2.1.1 Enable audit Logs (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 2.1.2 Ensure audit logs are collected and managed (Manual)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc1] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubeconfig",
+  "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["kubelet kubeconfig file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubelet configuration file",
+  "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+
+```json
+{
+  "name": "Anonymous Auth",
+  "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+
+```json
+{
+  "name": "Authorization Mode",
+  "requirements": ["3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+
+```json
+{
+  "name": "Client CA File",
+  "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+
+```json
+{
+  "name": "Disabled Port",
+  "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+
+```json
+{
+  "name": "Streaming Connection Idle Timeout",
+  "requirements": ["Not set to 0"]
+}
+```
+
+
+---
+
+[doc1] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+
+```json
+{
+  "name": "Automated",
+  "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+
+```json
+{
+  "name": "rotate-certificates",
+  "requirements": ["3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+
+```json
+{
+  "name": "RotateKubeletServerCertificate",
+  "requirements": ["3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+
+```json
+{
+  "name": "Cluster Admin",
+  "requirements": ["4.1.1 Ensure that the cluster-admin role is only used where required (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.2 Minimize access to secrets (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Automated"]
+}
+```
+
+
+---
+
+[doc1] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+
+```json
+{
+  "name": "Roles",
+  "requirements": ["Minimize wildcard use in Roles and ClusterRoles (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.4 Minimize access to create pods (Automated)
+
+```json
+{
+  "name": "Access",
+  "requirements": ["Minimize access to create pods (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.5 Ensure that default service accounts are not actively used. (Automated)
+
+```json
+{
+  "name": "Default Service Account",
+  "requirements": ["Ensure that default service accounts are not actively used."]
+}
+```
+
+
+---
+
+[doc1] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+
+```json
+{
+  "name": "Service Account Tokens",
+  "requirements": ["Ensure that Service Account Tokens are only mounted where necessary (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+
+```json
+{
+  "name": "Bind",
+  "requirements": ["Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.1 Minimize the admission of privileged containers (Automated)
+
+```json
+{
+  "name": "privileged containers",
+  "requirements": ["Minimize the admission of privileged containers (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+
+```json
+{
+  "name": "Host Process ID Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host process ID namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+
+```json
+{
+  "name": "IPC Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host IPC namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+
+```json
+{
+  "name": "Network Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host network namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers with allowPrivilegeEscalation (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+
+```json
+{
+  "name": "CNI Plugin",
+  "requirements": ["CNI plugin supports network policies."]
+}
+```
+
+
+---
+
+[doc1] 4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+
+```json
+{
+  "name": "Namespaces",
+  "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Prefer using secrets as files over secrets as environment variables (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.4.2 Consider external secret storage (Manual)
+
+```json
+{
+  "name": "Secret Storage",
+  "requirements": ["Consider external secret storage (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+
+```json
+{
+  "name": "Administrative Boundaries",
+  "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 4.5.2 The default namespace should not be used (Automated)
+
+```json
+{
+  "name": "Namespace",
+  "requirements": ["The default namespace should not be used (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.1.2 Minimize user access to Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Amazon ECR (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc1] 5.1.4 Minimize Container Registries to only those approved (Manual)
+
+```json
+{
+  "name": "Container Registry",
+  "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+
+```json
+{
+  "name": "EKS Service Account",
+  "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+
+```json
+{
+  "name": "Control Plane Endpoint",
+  "requirements": ["Restrict Access to the Control Plane Endpoint (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+
+```json
+{
+  "name": "Private Endpoint",
+  "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+
+```json
+{
+  "name": "Clusters",
+  "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+
+```json
+{
+  "name": "Network Policy",
+  "requirements": ["5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+
+```json
+{
+  "name": "TLS Certificate",
+  "requirements": ["Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 1.16.156 or greater (Manual)
+
+```json
+{
+  "name": "Manual",
+  "requirements": ["1.16.156 or greater (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 2.1.1 Enable audit Logs (Automated)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["2.1.1 Enable audit Logs (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 2.1.2 Ensure audit logs are collected and managed (Manual)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubeconfig",
+  "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["kubelet kubeconfig file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubelet configuration file",
+  "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+
+```json
+{
+  "name": "Anonymous Auth",
+  "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+
+```json
+{
+  "name": "Authorization Mode",
+  "requirements": ["3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+
+```json
+{
+  "name": "Client CA File",
+  "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+
+```json
+{
+  "name": "Disabled Port",
+  "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+
+```json
+{
+  "name": "Streaming Connection Idle Timeout",
+  "requirements": ["Not set to 0"]
+}
+```
+
+
+---
+
+[doc2] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+
+```json
+{
+  "name": "Automated",
+  "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+
+```json
+{
+  "name": "Event Capture",
+  "requirements": ["Automated"]
+}
+```
+
+
+---
+
+[doc2] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+
+```json
+{
+  "name": "rotate-certificates",
+  "requirements": ["3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+
+```json
+{
+  "name": "RotateKubeletServerCertificate",
+  "requirements": ["3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+
+```json
+{
+  "name": "Cluster Admin",
+  "requirements": ["Ensure that the cluster-admin role is only used where required (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.2 Minimize access to secrets (Manual)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+
+```json
+{
+  "name": "Roles",
+  "requirements": ["Minimize wildcard use in Roles and ClusterRoles (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.4 Minimize access to create pods (Manual)
+
+```json
+{
+  "name": "Access",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.5 Ensure that default service accounts are not actively used. (Manual)
+
+```json
+{
+  "name": "Default Service Account",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+
+```json
+{
+  "name": "Service Account Tokens",
+  "requirements": ["Ensure that Service Account Tokens are only mounted where necessary (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+
+```json
+{
+  "name": "Cluster Access Manager API",
+  "requirements": ["Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+
+```json
+{
+  "name": "Bind",
+  "requirements": ["Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.9 Minimize access to create persistent volumes (Manual)
+
+```json
+{
+  "name": "Access",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+
+```json
+{
+  "name": "Proxy",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.11 Minimize access to webhook configuration objects (Manual)
+
+```json
+{
+  "name": "Webhook Configuration",
+  "requirements": ["Minimize access to webhook configuration objects (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.12 Minimize access to the service account token creation (Manual)
+
+```json
+{
+  "name": "Service Account Token Creation",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.2.1 Minimize the admission of privileged containers (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of privileged containers (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers wishing to share the host process ID namespace"]
+}
+```
+
+
+---
+
+[doc2] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+
+```json
+{
+  "name": "IPC Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host IPC namespace"]
+}
+```
+
+
+---
+
+[doc2] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers wishing to share the host network namespace"]
+}
+```
+
+
+---
+
+[doc2] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers with allowPrivilegeEscalation (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+
+```json
+{
+  "name": "CNI Plugin",
+  "requirements": ["CNI plugin supports network policies."]
+}
+```
+
+
+---
+
+[doc2] 4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+
+```json
+{
+  "name": "Namespaces",
+  "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Prefer using secrets as files over secrets as environment variables (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 4.4.2 Consider external secret storage (Manual)
+
+```json
+{
+  "name": "Secret Storage",
+  "requirements": ["Consider external secret storage (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+
+```json
+{
+  "name": "Administrative Boundaries",
+  "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.5.2 The default namespace should not be used (Automated)
+
+```json
+{
+  "name": "Namespace",
+  "requirements": ["The default namespace should not be used (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+
+```json
+{
+  "name": "Image Scanning",
+  "requirements": ["5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.1.2 Minimize user access to Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Amazon ECR (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 5.1.4 Minimize Container Registries to only those approved (Manual)
+
+```json
+{
+  "name": "Container Registry",
+  "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+
+```json
+{
+  "name": "EKS Service Account",
+  "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+
+```json
+{
+  "name": "Kubernetes Secrets",
+  "requirements": ["Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+
+```json
+{
+  "name": "Control Plane Endpoint",
+  "requirements": ["Restrict Access to the Control Plane Endpoint (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+
+```json
+{
+  "name": "Private Endpoint",
+  "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+
+```json
+{
+  "name": "Clusters",
+  "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+
+```json
+{
+  "name": "AmazonEKSNetworkingPolicy",
+  "requirements": ["AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+
+```json
+{
+  "name": "TLS Certificate",
+  "requirements": ["Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+
+```json
+{
+  "name": "RBAC",
+  "requirements": ["5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)"]
+}
+```
+
+
+*LLM Name*
+google/gemma-3-1b-it
+*Prompt Used*
+You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendations.
+Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
+The name MUST be a short noun phrase (2-6 words) copied from the recommendation text.
+The requirement MUST be the full recommendation title verbatim.
+Do not invent content. Do not rephrase.
+
+Example 1:
+Document: cis-r1.pdf
+Recommendation: 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+Output KDE: {"name": "Anonymous Auth", "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]}
+
+Example 2:
+Document: cis-r1.pdf
+Recommendation: 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)
+Output KDE: {"name": "kubeconfig file permissions", "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Manual)"]}
+
+Now apply the same extraction to every title in the two documents below.
+
+Document 1 Name: cis-r3.pdf
+Document 1 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+4.1.2 Minimize access to secrets (Automated)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+4.1.4 Minimize access to create pods (Automated)
+4.1.5 Ensure that default service accounts are not actively used. (Automated)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.2.1 Minimize the admission of privileged containers (Automated)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+1.16.156 or greater (Manual)
+
+Document 2 Name: cis-r4.pdf
+Document 2 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+4.1.2 Minimize access to secrets (Manual)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+4.1.4 Minimize access to create pods (Manual)
+4.1.5 Ensure that default service accounts are not actively used. (Manual)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.1.9 Minimize access to create persistent volumes (Manual)
+4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+4.1.11 Minimize access to webhook configuration objects (Manual)
+4.1.12 Minimize access to the service account token creation (Manual)
+4.2.1 Minimize the admission of privileged containers (Manual)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+
+Output a single JSON object with this exact shape and nothing else:
+{"doc1": [{"name": "...", "requirements": ["..."]}], "doc2": [{"name": "...", "requirements": ["..."]}]}
+
+Respond now with JSON starting with {
+*Prompt Type*
+few-shot
+*LLM Output*
+[doc1] 2.1.1 Enable audit Logs (Automated)
+ {"name": "Audit Logs", "requirements": ["2.1.1 Enable audit Logs (Automated)"]}
+
+
+---
+
+[doc1] 2.1.2 Ensure audit logs are collected and managed (Manual)
+ {"name": "audit logs", "requirements": ["2.1.2 Ensure audit logs are collected and managed (Manual)"]}
+
+
+---
+
+[doc1] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+ {"name": "kubeconfig file permissions", "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]}
+
+
+---
+
+[doc1] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+ {"name": "kubelet kubeconfig file ownership", "requirements": ["3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)"]}
+
+
+---
+
+[doc1] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+ {"name": "kubelet configuration file permissions", "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]}
+
+
+---
+
+[doc1] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+ {"name": "kubelet configuration file ownership", "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]}
+
+
+---
+
+[doc1] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+ {"name": "Anonymous Auth", "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]}
+
+
+---
+
+[doc1] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+ {"name": "AlwaysAllow", "requirements": ["3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)"]}
+
+
+---
+
+[doc1] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+ {"name": "Client CA File", "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]}
+
+
+---
+
+[doc1] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+ {"name": " --read-only-port", "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]}
+
+
+---
+
+[doc1] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+ {"name": "streaming-connection-idle-timeout", "requirements": ["3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)"]}
+
+
+---
+
+[doc1] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+ {"name": "iptables-util-chains", "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]}
+
+
+---
+
+[doc1] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+ {"name": "Certificate Rotation", "requirements": ["3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)"]}
+
+
+---
+
+[doc1] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+ {"name": "RotateKubeletServerCertificate", "requirements": ["3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)"]}
+
+
+---
+
+[doc1] 4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+ {"name": "cluster-admin role", "requirements": ["4.1.1 Ensure that the cluster-admin role is only used where required (Automated)"]}
+
+
+---
+
+[doc1] 4.1.2 Minimize access to secrets (Automated)
+ {"name": "Secrets", "requirements": ["4.1.2 Minimize access to secrets (Automated)"]}
+
+
+---
+
+[doc1] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+ {"name": "Wildcard use", "requirements": ["4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)"]}
+
+
+---
+
+[doc1] 4.1.4 Minimize access to create pods (Automated)
+ {"name": "Access to create pods", "requirements": ["4.1.4 Minimize access to create pods (Automated)"]}
+
+
+---
+
+[doc1] 4.1.5 Ensure that default service accounts are not actively used. (Automated)
+ {"name": "default service accounts", "requirements": ["4.1.5 Ensure that default service accounts are not actively used."] }
+
+
+---
+
+[doc1] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+ {"name": "Service Account Tokens", "requirements": ["4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)"]}
+
+
+---
+
+[doc1] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+ {"name": "Bind, Impersonate and Escalate permissions", "requirements": ["4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]}
+
+
+---
+
+[doc1] 4.2.1 Minimize the admission of privileged containers (Automated)
+ {"name": "privileged containers", "requirements": ["4.2.1 Minimize the admission of privileged containers (Automated)"]}
+
+
+---
+
+[doc1] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+ {"name": "Admission of containers wishing to share the host process ID namespace", "requirements": ["4.2.2 Minimize the admission of containers wishing to share the host process ID namespace"]}
+
+
+---
+
+[doc1] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+ {"name": "Admission of containers wishing to share the host IPC namespace", "requirements": ["4.2.3 Minimize the admission of containers wishing to share the host IPC namespace"]}
+
+
+---
+
+[doc1] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+ {"name": "Admission of containers wishing to share the host network namespace", "requirements": ["4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)"]}
+
+
+---
+
+[doc1] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+ {"name": "Admission of containers with allowPrivilegeEscalation", "requirements": ["4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)"]}
+
+
+---
+
+[doc1] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+ {"name": "CNI plugin supports network policies", "requirements": ["4.3.1 Ensure CNI plugin supports network policies. (Manual)"]}
+
+
+---
+
+[doc1] 4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+ {"name": "Namespaces", "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)"]}
+
+
+---
+
+[doc1] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+ {"name": "Secrets file", "requirements": ["4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)"]}
+
+
+---
+
+[doc1] 4.4.2 Consider external secret storage (Manual)
+ {"name": "External secret storage", "requirements": ["4.4.2 Consider external secret storage (Manual)"]}
+
+
+---
+
+[doc1] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+ {"name": "Administrative boundaries", "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]}
+
+
+---
+
+[doc1] 4.5.2 The default namespace should not be used (Automated)
+ {"name": "default namespace", "requirements": ["4.5.2 The default namespace should not be used (Automated)"]}
+
+
+---
+
+[doc1] 5.1.2 Minimize user access to Amazon ECR (Manual)
+ {"name": "Amazon ECR", "requirements": ["5.1.2 Minimize user access to Amazon ECR (Manual)"]}
+
+
+---
+
+[doc1] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+ {"name": "Amazon ECR", "requirements": ["5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)"]}
+
+
+---
+
+[doc1] 5.1.4 Minimize Container Registries to only those approved (Manual)
+ {"name": "Container Registry", "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]}
+
+
+---
+
+[doc1] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+ {"name": "EKS Service Account", "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]}
+
+
+---
+
+[doc1] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+ {"name": "Control Plane Endpoint", "requirements": ["5.4.1 Restrict Access to the Control Plane Endpoint (Automated)"]}
+
+
+---
+
+[doc1] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+ {"name": "Private Endpoint Enabled", "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]}
+
+
+---
+
+[doc1] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+ {"name": "Private Nodes", "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]}
+
+
+---
+
+[doc1] 5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+ {"name": "Network Policy", "requirements": ["5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)"]}
+
+
+---
+
+[doc1] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+ {"name": "TLS certificates", "requirements": ["5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]}
+
+
+---
+
+[doc1] 1.16.156 or greater (Manual)
+ {"name": "Manual", "requirements": ["1.16.156 or greater (Manual)"]}
+
+
+---
+
+[doc2] 2.1.1 Enable audit Logs (Automated)
+ {"name": "Audit Logs", "requirements": ["2.1.1 Enable audit Logs (Automated)"]}
+
+
+---
+
+[doc2] 2.1.2 Ensure audit logs are collected and managed (Manual)
+ {"name": "audit logs", "requirements": ["2.1.2 Ensure audit logs are collected and managed (Manual)"]}
+
+
+---
+
+[doc2] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+ {"name": "kubeconfig file permissions", "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]}
+
+
+---
+
+[doc2] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+ {"name": "kubelet kubeconfig file ownership", "requirements": ["3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)"]}
+
+
+---
+
+[doc2] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+ {"name": "kubelet configuration file permissions", "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]}
+
+
+---
+
+[doc2] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+ {"name": "kubelet configuration file ownership", "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]}
+
+
+---
+
+[doc2] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+ {"name": "Anonymous Auth", "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]}
+
+
+---
+
+[doc2] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+ {"name": " --authorization-mode", "requirements": ["3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)"]}
+
+
+---
+
+[doc2] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+ {"name": "Client CA File", "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]}
+
+
+---
+
+[doc2] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+ {"name": " --read-only-port", "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]}
+
+
+---
+
+[doc2] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+ {"name": "streaming-connection-idle-timeout", "requirements": ["3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)"]}
+
+
+---
+
+[doc2] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+ {"name": "iptables-util-chains", "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]}
+
+
+---
+
+[doc2] 3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+ {"name": " --eventRecordQPS", "requirements": ["3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)"]}
+
+
+---
+
+[doc2] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+ {"name": "Certificate rotation", "requirements": ["3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)"]}
+
+
+---
+
+[doc2] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+ {"name": "RotateKubeletServerCertificate", "requirements": ["3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)"]}
+
+
+---
+
+[doc2] 4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+ {"name": "cluster-admin role", "requirements": ["4.1.1 Ensure that the cluster-admin role is only used where required (Manual)"]}
+
+
+---
+
+[doc2] 4.1.2 Minimize access to secrets (Manual)
+ {"name": "Secrets", "requirements": ["4.1.2 Minimize access to secrets (Manual)"]}
+
+
+---
+
+[doc2] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+ {"name": "Wildcard use", "requirements": ["4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)"]}
+
+
+---
+
+[doc2] 4.1.4 Minimize access to create pods (Manual)
+ {"name": "Access to create pods", "requirements": ["4.1.4 Minimize access to create pods (Manual)"]}
+
+
+---
+
+[doc2] 4.1.5 Ensure that default service accounts are not actively used. (Manual)
+ {"name": "default service accounts", "requirements": ["4.1.5 Ensure that default service accounts are not actively used. (Manual)"]}
+
+
+---
+
+[doc2] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+ {"name": "Service Account Tokens", "requirements": ["4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)"]}
+
+
+---
+
+[doc2] 4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+ {"name": "Cluster Access Manager API", "requirements": ["4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)"]}
+
+
+---
+
+[doc2] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+ {"name": "Bind, Impersonate and Escalate permissions", "requirements": ["4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]}
+
+
+---
+
+[doc2] 4.1.9 Minimize access to create persistent volumes (Manual)
+ {"name": "Persistent Volumes", "requirements": ["4.1.9 Minimize access to create persistent volumes (Manual)"]}
+
+
+---
+
+[doc2] 4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+ {"name": "proxy sub-resource", "requirements": ["4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)"]}
+
+
+---
+
+[doc2] 4.1.11 Minimize access to webhook configuration objects (Manual)
+ {"name": "Webhook configuration objects", "requirements": ["4.1.11 Minimize access to webhook configuration objects (Manual)"]}
+
+
+---
+
+[doc2] 4.1.12 Minimize access to the service account token creation (Manual)
+ {"name": "service account token creation", "requirements": ["4.1.12 Minimize access to the service account token creation (Manual)"]}
+
+
+---
+
+[doc2] 4.2.1 Minimize the admission of privileged containers (Manual)
+ {"name": "privileged containers", "requirements": ["4.2.1 Minimize the admission of privileged containers (Manual)"]}
+
+
+---
+
+[doc2] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+ {"name": "Admission of containers wishing to share the host process ID namespace", "requirements": ["4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)"]}
+
+
+---
+
+[doc2] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+ {"name": "Admission of containers wishing to share the host IPC namespace", "requirements": ["4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)"]}
+
+
+---
+
+[doc2] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+ {"name": "Admission of containers wishing to share the host network namespace", "requirements": ["4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)"]}
+
+
+---
+
+[doc2] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+ {"name": "Admission of containers with allowPrivilegeEscalation", "requirements": ["4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)"]}
+
+
+---
+
+[doc2] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+ {"name": "CNI plugin supports network policies", "requirements": ["4.3.1 Ensure CNI plugin supports network policies. (Manual)"]}
+
+
+---
+
+[doc2] 4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+ {"name": "Namespaces", "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)"]}
+
+
+---
+
+[doc2] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+ {"name": "Secrets file", "requirements": ["4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)"]}
+
+
+---
+
+[doc2] 4.4.2 Consider external secret storage (Manual)
+ {"name": "External secret storage", "requirements": ["4.4.2 Consider external secret storage (Manual)"]}
+
+
+---
+
+[doc2] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+ {"name": "Administrative boundaries", "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]}
+
+
+---
+
+[doc2] 4.5.2 The default namespace should not be used (Automated)
+ {"name": "default namespace", "requirements": ["4.5.2 The default namespace should not be used (Automated)"]}
+
+
+---
+
+[doc2] 5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+ {"name": "Image Vulnerability Scanning", "requirements": ["5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)"]}
+
+
+---
+
+[doc2] 5.1.2 Minimize user access to Amazon ECR (Manual)
+ {"name": "Amazon ECR", "requirements": ["5.1.2 Minimize user access to Amazon ECR (Manual)"]}
+
+
+---
+
+[doc2] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+ {"name": "Amazon ECR", "requirements": ["5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)"]}
+
+
+---
+
+[doc2] 5.1.4 Minimize Container Registries to only those approved (Manual)
+ {"name": "Container Registry", "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]}
+
+
+---
+
+[doc2] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+ {"name": "EKS Service Account", "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]}
+
+
+---
+
+[doc2] 5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+ {"name": "Kubernetes Secrets", "requirements": ["5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)"]}
+
+
+---
+
+[doc2] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+ {"name": "Control Plane Endpoint", "requirements": ["5.4.1 Restrict Access to the Control Plane Endpoint (Automated)"]}
+
+
+---
+
+[doc2] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+ {"name": "Private Endpoint Enabled", "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]}
+
+
+---
+
+[doc2] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+ {"name": "Private Nodes", "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]}
+
+
+---
+
+[doc2] 5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+ {"name": "AmazonEKSNetworkingPolicy", "requirements": ["5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)"]}
+
+
+---
+
+[doc2] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+ {"name": "TLS certificates", "requirements": ["5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]}
+
+
+---
+
+[doc2] 5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+ {"name": "AWS IAM Authenticator", "requirements": ["5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)"]}
+
+
+*LLM Name*
+google/gemma-3-1b-it
+*Prompt Used*
+You extract Key Data Elements (KDEs) from CIS Kubernetes benchmark recommendations.
+Input: a list of recommendation titles, one per line, format `<section> <title> (Automated|Manual)`.
+
+Internally reason through these steps without writing them down:
+1. For each title, identify the subject noun phrase (2-6 words).
+2. Copy the full recommendation title verbatim as the requirement.
+3. Collapse identical subjects across titles into a single KDE whose requirements list contains every matching title.
+
+Rules:
+- The name MUST be copied from the input titles.
+- The requirement MUST be the verbatim full title line.
+- Do not invent content. Do not summarize.
+- Do not expose your reasoning. Return only the final JSON object.
+
+Document 1 Name: cis-r3.pdf
+Document 1 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+4.1.2 Minimize access to secrets (Automated)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+4.1.4 Minimize access to create pods (Automated)
+4.1.5 Ensure that default service accounts are not actively used. (Automated)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.2.1 Minimize the admission of privileged containers (Automated)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+1.16.156 or greater (Manual)
+
+Document 2 Name: cis-r4.pdf
+Document 2 Titles:
+2.1.1 Enable audit Logs (Automated)
+2.1.2 Ensure audit logs are collected and managed (Manual)
+3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+3.2.3 Ensure that a Client CA File is Configured (Automated)
+3.2.4 Ensure that the --read-only-port is disabled (Automated)
+3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+4.1.2 Minimize access to secrets (Manual)
+4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+4.1.4 Minimize access to create pods (Manual)
+4.1.5 Ensure that default service accounts are not actively used. (Manual)
+4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+4.1.9 Minimize access to create persistent volumes (Manual)
+4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+4.1.11 Minimize access to webhook configuration objects (Manual)
+4.1.12 Minimize access to the service account token creation (Manual)
+4.2.1 Minimize the admission of privileged containers (Manual)
+4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+4.3.1 Ensure CNI plugin supports network policies. (Manual)
+4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+4.4.2 Consider external secret storage (Manual)
+4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+4.5.2 The default namespace should not be used (Automated)
+5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+5.1.2 Minimize user access to Amazon ECR (Manual)
+5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+5.1.4 Minimize Container Registries to only those approved (Manual)
+5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+5.4.3 Ensure clusters are created with Private Nodes (Automated)
+5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+
+Output a single JSON object with this exact shape and nothing else:
+{"doc1": [{"name": "...", "requirements": ["..."]}], "doc2": [{"name": "...", "requirements": ["..."]}]}
+
+Respond now with JSON starting with {
+*Prompt Type*
+chain-of-thought
+*LLM Output*
+[doc1] 2.1.1 Enable audit Logs (Automated)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["2.1.1 Enable audit Logs (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 2.1.2 Ensure audit logs are collected and managed (Manual)
+
+```json
+{"name": "Audit Logs", "requirements": ["Audit logs are collected and managed"]}
+```
+
+
+---
+
+[doc1] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubeconfig",
+  "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+
+```json
+{"name": "kubelet", "requirements": ["kubelet kubeconfig file ownership is set to root:root (Automated)"]}
+```
+
+
+---
+
+[doc1] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubelet configuration",
+  "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+
+```json
+{
+  "name": "Anonymous Auth",
+  "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+
+```json
+{"name": "Authorization Mode", "requirements": ["3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)"]}
+```
+
+
+---
+
+[doc1] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+
+```json
+{
+  "name": "Client CA File",
+  "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+
+```json
+{
+  "name": "Port",
+  "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+
+```json
+{"name": "Streaming Connection Idle Timeout", "requirements": ["3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)"]}
+```
+
+
+---
+
+[doc1] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+
+```json
+{
+  "name": "Automated",
+  "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+
+```json
+{"name": "rotate", "requirements": ["3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)"]}
+```
+
+
+---
+
+[doc1] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+
+```json
+{"name": "RotateKubeletServerCertificate", "requirements": ["3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)"]}
+```
+
+
+---
+
+[doc1] 4.1.1 Ensure that the cluster-admin role is only used where required (Automated)
+
+```json
+{"name": "Cluster Admin", "requirements": ["Automated"]}
+```
+
+
+---
+
+[doc1] 4.1.2 Minimize access to secrets (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Minimize access to secrets"]
+}
+```
+
+
+---
+
+[doc1] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Automated)
+
+```json
+{
+  "name": "Roles",
+  "requirements": ["Minimize wildcard use in Roles and ClusterRoles (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.4 Minimize access to create pods (Automated)
+
+```json
+{
+  "name": "Access",
+  "requirements": ["Minimize access to create pods (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.1.5 Ensure that default service accounts are not actively used. (Automated)
+
+```json
+{
+  "name": "Default Service Account",
+  "requirements": ["Ensure that default service accounts are not actively used."]
+}
+```
+
+
+---
+
+[doc1] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Automated)
+
+```json
+{
+  "name": "Service Account Token",
+  "requirements": ["Only mounted where necessary"]
+}
+```
+
+
+---
+
+[doc1] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+
+```json
+{"name": "Kubernetes Permissions", "requirements": ["Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]}
+```
+
+
+---
+
+[doc1] 4.2.1 Minimize the admission of privileged containers (Automated)
+
+```json
+{
+  "name": "privileged containers",
+  "requirements": ["4.2.1 Minimize the admission of privileged containers (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Automated)
+
+```json
+{
+  "name": "host process ID namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host process ID namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Automated)
+
+```json
+{
+  "name": "IPC Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host IPC namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Automated)
+
+```json
+{
+  "name": "Network Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host network namespace (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers with allowPrivilegeEscalation (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+
+```json
+{"name": "CNI Plugin", "requirements": ["CNI plugin supports network policies."] }
+```
+
+
+---
+
+[doc1] 4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)
+
+```json
+{
+  "name": "Namespaces",
+  "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Prefer using secrets as files over secrets as environment variables (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 4.4.2 Consider external secret storage (Manual)
+
+```json
+{
+  "name": "Secret Storage",
+  "requirements": ["Consider external secret storage (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+
+```json
+{
+  "name": "Administrative Boundaries",
+  "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 4.5.2 The default namespace should not be used (Automated)
+
+```json
+{"name": "namespace", "requirements": ["The default namespace should not be used (Automated)"]}
+```
+
+
+---
+
+[doc1] 5.1.2 Minimize user access to Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc1] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Minimize cluster access to read-only for Amazon ECR (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 5.1.4 Minimize Container Registries to only those approved (Manual)
+
+```json
+{
+  "name": "Container Registry",
+  "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+
+```json
+{
+  "name": "EKS Service Account",
+  "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+
+```json
+{
+  "name": "Control Plane Endpoint",
+  "requirements": ["Restrict Access to the Control Plane Endpoint (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+
+```json
+{"name": "Clusters", "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]}
+```
+
+
+---
+
+[doc1] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+
+```json
+{"name": "Clusters", "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]}
+```
+
+
+---
+
+[doc1] 5.4.4 Ensure Network Policy is Enabled and set as appropriate (Automated)
+
+```json
+{
+  "name": "Network Policy",
+  "requirements": ["Ensure Network Policy is Enabled and set as appropriate (Automated)"]
+}
+```
+
+
+---
+
+[doc1] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+
+```json
+{
+  "name": "TLS Certificate",
+  "requirements": ["Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]
+}
+```
+
+
+---
+
+[doc1] 1.16.156 or greater (Manual)
+
+```json
+{"name": "Manual", "requirements": ["1.16.156 or greater (Manual)"]}
+```
+
+
+---
+
+[doc2] 2.1.1 Enable audit Logs (Automated)
+
+```json
+{
+  "name": "Audit Logs",
+  "requirements": ["2.1.1 Enable audit Logs (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 2.1.2 Ensure audit logs are collected and managed (Manual)
+
+```json
+{"name": "Audit Logs", "requirements": ["Audit logs are collected and managed"]}
+```
+
+
+---
+
+[doc2] 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubeconfig",
+  "requirements": ["3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.1.2 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)
+
+```json
+{"name": "kubelet", "requirements": ["kubelet kubeconfig file ownership is set to root:root (Automated)"]}
+```
+
+
+---
+
+[doc2] 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)
+
+```json
+{
+  "name": "kubelet configuration",
+  "requirements": ["3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictive (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)
+
+```json
+{
+  "name": "kubelet",
+  "requirements": ["3.1.4 Ensure that the kubelet configuration file ownership is set to root:root (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)
+
+```json
+{
+  "name": "Anonymous Auth",
+  "requirements": ["3.2.1 Ensure that the Anonymous Auth is Not Enabled (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.2 Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated)
+
+```json
+{"name": "Authorization Mode", "requirements": ["Not set to AlwaysAllow (Automated)"]}
+```
+
+
+---
+
+[doc2] 3.2.3 Ensure that a Client CA File is Configured (Automated)
+
+```json
+{
+  "name": "Client CA File",
+  "requirements": ["3.2.3 Ensure that a Client CA File is Configured (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.4 Ensure that the --read-only-port is disabled (Automated)
+
+```json
+{
+  "name": "Port",
+  "requirements": ["3.2.4 Ensure that the --read-only-port is disabled (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+
+```json
+{"name": "Streaming Connection Idle Timeout", "requirements": ["3.2.5 Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)"]}
+```
+
+
+---
+
+[doc2] 3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+
+```json
+{
+  "name": "Automated",
+  "requirements": ["3.2.6 Ensure that the --make-iptables-util-chains argument is set to true (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)
+
+```json
+{"name": "Event Capture", "requirements": ["3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture (Automated)"]}
+```
+
+
+---
+
+[doc2] 3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true (Automated)
+
+```json
+{"name": "rotate", "requirements": ["rotate-certificates"]}
+```
+
+
+---
+
+[doc2] 3.2.9 Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+
+```json
+{"name": "RotateKubeletServerCertificate", "requirements": ["RotateKubeletServerCertificate is set to true (Automated)"]}
+```
+
+
+---
+
+[doc2] 4.1.1 Ensure that the cluster-admin role is only used where required (Manual)
+
+```json
+{"name": "Cluster Admin", "requirements": ["Manual"]}
+```
+
+
+---
+
+[doc2] 4.1.2 Minimize access to secrets (Manual)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Minimize access to secrets"]
+}
+```
+
+
+---
+
+[doc2] 4.1.3 Minimize wildcard use in Roles and ClusterRoles (Manual)
+
+```json
+{
+  "name": "Roles",
+  "requirements": ["Minimize wildcard use in Roles and ClusterRoles (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.4 Minimize access to create pods (Manual)
+
+```json
+{
+  "name": "Access",
+  "requirements": ["Minimize access to create pods (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.5 Ensure that default service accounts are not actively used. (Manual)
+
+```json
+{"name": "Service Account", "requirements": ["Manual"]}
+```
+
+
+---
+
+[doc2] 4.1.6 Ensure that Service Account Tokens are only mounted where necessary (Manual)
+
+```json
+{
+  "name": "Service Account Token",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)
+
+```json
+{
+  "name": "Cluster Access Manager",
+  "requirements": ["4.1.7 Cluster Access Manager API to streamline and enhance the management of access controls within EKS clusters (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)
+
+```json
+{"name": "Kubernetes Permissions", "requirements": ["4.1.8 Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)"]}
+```
+
+
+---
+
+[doc2] 4.1.9 Minimize access to create persistent volumes (Manual)
+
+```json
+{
+  "name": "Volume Access",
+  "requirements": ["Minimize access to create persistent volumes (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.10 Minimize access to the proxy sub-resource of nodes (Manual)
+
+```json
+{
+  "name": "Proxy",
+  "requirements": ["Minimize access to the proxy sub-resource of nodes (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.11 Minimize access to webhook configuration objects (Manual)
+
+```json
+{
+  "name": "Webhook Configuration",
+  "requirements": ["Minimize access to webhook configuration objects (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.1.12 Minimize access to the service account token creation (Manual)
+
+```json
+{
+  "name": "Service Account Token Creation",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 4.2.1 Minimize the admission of privileged containers (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of privileged containers (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.2.2 Minimize the admission of containers wishing to share the host process ID namespace (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers wishing to share the host process ID namespace"]
+}
+```
+
+
+---
+
+[doc2] 4.2.3 Minimize the admission of containers wishing to share the host IPC namespace (Manual)
+
+```json
+{
+  "name": "IPC Namespace",
+  "requirements": ["Minimize the admission of containers wishing to share the host IPC namespace (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.2.4 Minimize the admission of containers wishing to share the host network namespace (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers wishing to share the host network namespace"]
+}
+```
+
+
+---
+
+[doc2] 4.2.5 Minimize the admission of containers with allowPrivilegeEscalation (Manual)
+
+```json
+{
+  "name": "Admission",
+  "requirements": ["Minimize the admission of containers with allowPrivilegeEscalation (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.3.1 Ensure CNI plugin supports network policies. (Manual)
+
+```json
+{"name": "CNI Plugin", "requirements": ["CNI plugin supports network policies."] }
+```
+
+
+---
+
+[doc2] 4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)
+
+```json
+{
+  "name": "Namespaces",
+  "requirements": ["4.3.2 Ensure that all Namespaces have Network Policies defined (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.4.1 Prefer using secrets as files over secrets as environment variables (Automated)
+
+```json
+{
+  "name": "Secrets",
+  "requirements": ["Prefer using secrets as files over secrets as environment variables (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 4.4.2 Consider external secret storage (Manual)
+
+```json
+{
+  "name": "Secret Storage",
+  "requirements": ["Consider external secret storage (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.5.1 Create administrative boundaries between resources using namespaces (Manual)
+
+```json
+{
+  "name": "Administrative Boundaries",
+  "requirements": ["4.5.1 Create administrative boundaries between resources using namespaces (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 4.5.2 The default namespace should not be used (Automated)
+
+```json
+{"name": "namespace", "requirements": ["The default namespace should not be used (Automated)"]}
+```
+
+
+---
+
+[doc2] 5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+
+```json
+{"name": "Image Scanning", "requirements": ["5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)"]}
+```
+
+
+---
+
+[doc2] 5.1.2 Minimize user access to Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Manual"]
+}
+```
+
+
+---
+
+[doc2] 5.1.3 Minimize cluster access to read-only for Amazon ECR (Manual)
+
+```json
+{
+  "name": "Amazon ECR",
+  "requirements": ["Minimize cluster access to read-only for Amazon ECR (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.1.4 Minimize Container Registries to only those approved (Manual)
+
+```json
+{
+  "name": "Container Registry",
+  "requirements": ["5.1.4 Minimize Container Registries to only those approved (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.2.1 Prefer using dedicated EKS Service Accounts (Automated)
+
+```json
+{
+  "name": "EKS Service Account",
+  "requirements": ["5.2.1 Prefer using dedicated EKS Service Accounts (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.3.1 Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)
+
+```json
+{"name": "Kubernetes Secrets", "requirements": ["Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMKs) managed in AWS KMS (Manual)"]}
+```
+
+
+---
+
+[doc2] 5.4.1 Restrict Access to the Control Plane Endpoint (Automated)
+
+```json
+{
+  "name": "Control Plane Endpoint",
+  "requirements": ["Restrict Access to the Control Plane Endpoint (Automated)"]
+}
+```
+
+
+---
+
+[doc2] 5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)
+
+```json
+{"name": "Clusters", "requirements": ["5.4.2 Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled (Automated)"]}
+```
+
+
+---
+
+[doc2] 5.4.3 Ensure clusters are created with Private Nodes (Automated)
+
+```json
+{"name": "Clusters", "requirements": ["5.4.3 Ensure clusters are created with Private Nodes (Automated)"]}
+```
+
+
+---
+
+[doc2] 5.4.4 Ensure AmazonEKSNetworkingPolicy is Enabled and set as appropriate (Automated)
+
+```json
+{
+  "name": "AmazonEKSNetworkingPolicy",
+  "requirements": ["AmazonEKSNetworkingPolicy is Enabled and set as appropriate"]
+}
+```
+
+
+---
+
+[doc2] 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)
+
+```json
+{
+  "name": "TLS Certificate",
+  "requirements": ["Encrypt traffic to HTTPS load balancers with TLS certificates (Manual)"]
+}
+```
+
+
+---
+
+[doc2] 5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)
+
+```json
+{
+  "name": "RBAC",
+  "requirements": ["5.5.1 Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or Upgrade to AWS CLI v1.16.156 or greater (Manual)"]
+}
+```
+

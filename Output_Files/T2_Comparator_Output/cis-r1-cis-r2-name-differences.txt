@@ -1,0 +1,32 @@
+--eventrecordqps
+--protect-kernel-defaults
+admission of containers with added capabilities
+admission of containers with capabilities
+admission of privileged containers
+authorizationmode
+aws iam authenticator for kubernetes
+container registries
+container-optimized os
+event capture
+fargate
+hostname-override
+image scanning
+image vulnerability scanning
+kernel defaults
+kubernetes secrets
+manual
+os
+os container
+pod
+rbac
+roles and clusterroles
+root container
+root containers
+secrets as files
+secrets file
+security context
+service account
+service account token
+streaming-connection-idle-timeout
+system
+system:masters group

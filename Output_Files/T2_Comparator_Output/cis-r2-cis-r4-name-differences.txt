@@ -1,0 +1,26 @@
+--authorization-mode
+--eventrecordqps
+alwaysallow
+amazoneksnetworkingpolicy
+authorizationmode
+aws iam authenticator
+cluster access manager
+cluster access manager api
+event capture
+host process id namespace
+image scanning
+image vulnerability scanning
+kubernetes secrets
+manual
+network namespace
+network policy
+persistent volumes
+proxy
+proxy sub-resource
+rbac
+roles and clusterroles
+service account
+service account token creation
+volume access
+webhook configuration
+webhook configuration objects
