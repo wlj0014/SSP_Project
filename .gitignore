@@ -4,5 +4,3 @@ __pycache__/
 build/
 dist/
 .ipynb_checkpoints/
-inputs/
-project-yamls.zip
